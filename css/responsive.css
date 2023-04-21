@@ -1,0 +1,955 @@
+/*ipad portrait only*/
+
+@media only screen
+and (max-width: 1024px)
+and (orientation: portrait) {
+    #home-hero {
+        height:650px;
+    }
+}
+
+/* all others*/
+
+@media screen and (max-width:1120px) {
+    .main-contacts {
+        display:none;
+    }
+
+    .pre-header.flex.justify-evenly {
+        justify-content: flex-end;
+    }
+
+    .foglio {
+        width: calc(100% - 100px);
+    }
+
+    .second-part-menu,
+    .first-part-menu {
+        padding:0px 25px;
+    }
+
+    #sostenibilita:before,
+    #testimonials::before,
+    #portlet-news::before,
+    #nostri-servizi:before,
+    #form-esploso:before,
+    #portlet-prodotti:before {
+        left:0px;
+        width: 100%;
+    }
+
+    .fake-menu p {
+        margin: 0px 10px 30px 10px
+    }
+
+    .news-thumb .titles4.dark-blu {
+        font-size:24px;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .col-7,
+    .col-5,
+    .col-4,
+    .col-half,
+    .col-8,
+    .col-4-2,
+    .result-item .image-wrap,
+    .result-item .text-result,
+    #image-sommario .col-8 {
+        width:100%;
+    }
+
+    .col-3 {
+        width:calc(50% - 15px);
+    }
+
+    #opening-home img.opening-img {
+        aspect-ratio: 5 / 2;
+        object-fit: cover;
+        margin-top:50px;
+    }
+
+  
+    #ambiti-di-intervento .thumbnail-card {
+        aspect-ratio: 16 / 6;
+    }
+
+  
+    #corsi-di-formazione .fake-menu.justify-right {
+        justify-content: flex-start;
+    }
+
+    
+
+    .news-thumb {
+        margin-bottom:40px;
+    }
+
+    .foot-4 .col-half:last-child {
+        margin-top:40px;
+    }
+
+    .last-footer-menu {
+        margin-top:12px;
+    }
+
+    .last-footer-menu ul li {
+        margin-left:0;
+        margin-right:12;
+    }
+
+    /*header*/
+
+    span#burger-menu {
+        display:flex;
+    }
+
+    header#main-header {
+        background: var(--darker-blu);
+        height: 100svh;
+        top:0;
+        transform: translateX(100vw);
+        opacity:0;
+    }
+
+    header#main-header.enter {
+        transform: translateX(0px);
+        opacity:1;
+    }
+
+    header#main-header.topper {
+        transform: translateX(100vw) translateY(0px);
+    }
+
+    header#main-header.topper.enter {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    .pre-header {
+        margin-top:20px;
+    }
+
+    #logo-menu {
+        display:none;
+    }
+
+    #main-nav {
+        height:auto;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);
+        padding: 12px;
+    }
+
+    #main-nav ul {
+        display:block;
+    }
+
+    .first-part-menu, .second-part-menu {
+        width:100%;
+        padding:0;
+    }
+
+    #main-nav ul ul {
+        position:relative;
+        display:block;
+        top: 0;
+        left: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+        margin-top: 0px;
+        margin-left:2px;
+        height:0px;
+        overflow:hidden;
+        padding:0;
+    }
+
+    #main-nav ul.menu li ul.sub-menu li {
+        border:none;
+    }
+
+    #main-nav ul ul.open {
+        height:auto;
+        margin-top:8px;
+        padding:4px;
+    }
+
+    #blog-nav {
+        height:auto;
+        background:none;
+        border-radius:0;
+    }
+
+    #blog-nav ul {
+        justify-content: flex-start;
+        align-items: center;
+        height: auto;
+        flex-wrap: wrap;
+        padding:8px 0px;
+    }
+
+    #blog-nav nav {
+        margin-top:12px;
+    }
+
+    #blog-nav nav::before {
+        content:"Blog categories";
+        color:var(--white);
+        font-size:12px;
+    }
+
+    #blog-nav ul li {
+       
+        padding:7px 12px;
+        border-radius:20px;
+        display:flex;
+        margin-right:8px;
+        margin-bottom:8px;
+        color:var(--white);
+        opacity:1;
+        background:var(--dark-blu);
+    }
+
+    #blog-nav ul li a {
+        opacity:.75;
+    }
+
+    #blog-nav ul li.current-menu-item {
+        background:var(--main-blu);
+    }
+
+    #main-nav ul.menu li,
+    #main-nav ul.menu li ul.sub-menu li  {
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+
+    #main-nav ul li.current-menu-item::after {
+        left: -2px;
+        bottom: 15px;
+    }
+
+    .resp-logo {
+        display:flex;
+        position:absolute;
+        top:40px;
+        left:calc(50% - 100px);
+        width:200px;
+    }
+
+
+    /* corporate */
+
+    #corporate-hero {
+        min-height:unset;
+        padding:0px 0px 60px 0px;
+        
+    }
+
+    .corp-hero-bg,
+    .corp-hero-bg:after {
+        border-radius:0px 0px 40px 40px;
+    }
+
+    .corp-hero-cont {
+        padding:120px 0px 80px 0px;
+    }
+
+    .resp-logo {
+        left:0;
+    }
+
+    .corp-hero-cont img {
+        height: 48px;
+        margin-top: 30px;
+        left: calc(50% - 10px);
+        position: absolute;
+        top: 0;
+    }
+
+    #opening-corp {
+        padding:60px 0px 0px 0px;
+        border-radius:40px 40px 0px 0px;
+    }
+
+    #opening-corp,
+    #opening-corp .col-7,
+    #opening-corp .col-5,
+    #contentleft-imageright,
+    #contentleft-imageright .col-7,
+    #contentleft-imageright .col-5 {
+        transform:scaleY(-1);
+    }
+
+    #opening-corp img.opening-img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        transform: translateY(-60px);
+    }
+
+    #imageleft-contentright img.opening-img, #contentleft-imageright img.opening-img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        margin-bottom:30px;
+        
+    }
+
+ 
+
+    #imageleft-contentright, #contentleft-imageright {
+        padding:50px 0px;
+    }
+
+    #sostenibilita .foglio .item {
+        position: relative;
+        padding: 20px 0px;
+    }
+
+    #sostenibilita .foglio .item .titles2 {
+        margin-bottom:10px;
+    }
+
+    .ccta-top,
+    #divider-section img {
+        aspect-ratio: 16 / 9;
+    }
+
+    #card-cta {
+        margin-top:40px;
+    }
+
+    #nostri-servizi .col-half:first-child {
+        margin-bottom:50px;
+    }
+
+    #nostri-servizi::before {
+        width:100%;
+        left:0;
+    }
+
+
+    #contentleft-imageright.biblio {
+        border-radius:100px 100px 0px 0px;
+    }
+
+
+    /* ambiti aggregativa*/
+
+    #ambiti-sections .thumbnail-card {
+        aspect-ratio: 16 / 9;
+    }
+
+    #ambiti-sections .col-8 {
+        margin-top:50px;
+    }
+
+    #ambiti-sections .right-image {
+        transform:scaleY(-1);
+    }
+
+    #ambiti-sections .right-image .col-4,
+    #ambiti-sections .right-image .col-8 {
+        transform:scaleY(-1);
+    }
+
+    #ambiti-sections .right-image .col-8 {
+        margin-bottom:50px;
+        margin-top:0;
+    }
+
+    .flex-grid {
+        display:flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+      }
+
+      #top-news .col-4 {
+        margin-bottom:40px;
+        margin-top:0;
+      }
+
+      #top-news .col-4:first-child {
+        margin-top:-60px;
+      }
+
+      #page-news .col-4 {
+        margin-bottom:40px;
+      }
+
+      #top-news {
+        padding-bottom:40px;
+      }
+
+      #page-news .col-4:last-child {
+        margin-bottom:0;
+      }
+
+      .result-item .text-result {
+        padding:36px;
+    }
+    
+    
+    .result-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 16 / 9;
+        border-radius: 40px 40px 0px 0px;
+    }
+
+    .result-item .flex.justify-evenly {
+        width:100%;
+    }
+
+    .summary  {
+        margin-top:20px;
+    }
+
+   
+
+}
+
+@media screen and (max-width:740px){
+
+    .col-3 {
+        width:100%;
+    }
+
+    .resp-logo {
+        display:flex;
+        position:relative;
+        top:0px;
+        left:0;
+        width:140px;
+    }
+    .foglio {
+        width: calc(100% - 50px);
+    }
+
+    .top-search {
+        position:absolute;
+        right:40px;
+    }
+
+    .e-learning  {
+        display:none;
+    }
+
+    #cart {
+        margin-right: 80px;
+    }
+
+    #main-nav,
+    #main-nav ul ul {
+        background-color:transparent;
+    }
+
+    #main-nav {
+        padding:0px 0px 20px 0px;
+    }
+
+    #main-nav ul li.current-menu-item a,
+    #main-nav ul ul.current-menu-item a,
+    #main-nav ul.menu li:hover a,
+    #main-nav ul.menu li:hover ul.sub-menu li.current-menu-item a,
+    #main-nav ul.menu li.current-menu-parent a {
+        color:var(--white);
+        opacity:1;
+    }
+
+    #main-nav ul li.current-menu-item::after,
+    #main-nav ul ul li.current-menu-item::after,
+    #main-nav ul.menu li ul.sub-menu li.current-menu-item::after {
+        background-color:var(--white);
+    }
+
+    #main-nav ul li a,
+    #main-nav ul ul li a,
+    #main-nav ul.menu li ul.sub-menu li a,
+    #main-nav ul.menu li:hover ul.sub-menu li a
+     {
+        color:var(--white);
+        opacity: 0.7;;
+    }
+
+    #main-nav ul.menu li, #main-nav ul.menu li ul.sub-menu li {
+        border-color:rgba(255,255,255,0.1);
+    }
+
+    header#main-header {
+        overflow:scroll;
+    }
+
+    .selector {
+        padding:0px 6px;
+        flex-wrap: nowrap;
+        width:auto;
+    }
+
+    .selector a {
+        padding:0px 4px;
+    }
+
+    #cart {
+        padding:0px 10px;
+    }
+
+
+    /* fonts*/
+
+
+    .titles1 {
+        font-family:var(--font);
+        font-size:38px;
+        line-height:var(--lh-1);
+        font-weight:700;
+        margin-top:0;
+        margin-bottom:20px;
+    }
+
+
+    .titles2 {
+        font-family:var(--font);
+        font-size:32px;
+        line-height:var(--lh-1);
+        font-weight:700;
+    }
+
+
+
+    .titles3 {
+        font-family:var(--font);
+        font-size:28px;
+        line-height:var(--lh-1);
+        font-weight:700;
+    }
+
+    .titles4 {
+        font-family:var(--font);
+        font-size:26px;
+        line-height:var(--lh-1);
+        font-weight:700;
+        margin-top:8px;
+        margin-bottom:12px;
+    }
+
+    .titles5 {
+        font-family:var(--font);
+        font-size:22px;
+        line-height:var(--lh-1);
+        font-weight:700;
+        margin-top:8px;
+        margin-bottom:8px;
+    }
+
+    .subtitle {
+        margin-bottom:2px;
+    }
+
+
+    /*hero*/
+
+
+   
+
+    #home-hero {
+        height: fit-content;
+    }
+
+    .hero-content {
+        padding: 26px 0px 80px 0px;
+        text-align:left;
+    }
+
+    .home-hero-bg {
+        border-radius:0px 0px 40px 40px;
+    }
+
+    .buttons-white {
+        padding:12px 40px
+    }
+
+    .buttons-dark {
+        padding: 12px 50px;
+    }
+
+    #opening-home {
+        padding:60px 0px;
+        border-radius:0px 0px 40px 40px;
+    }
+
+    #opening-home img.opening-img {
+        aspect-ratio: 3 / 2;
+        object-fit: cover;
+        margin-top: 50px;
+        border-radius:20px;
+    }
+
+    #certificazioni {
+        padding:60px 0px;
+    }
+
+    #slider-certificazioni .owl-nav {
+        position: absolute;
+        top: -20px;
+        right: 0px;
+    }
+
+    #sostenibilita {
+        padding: 60px 0px;
+    }
+
+    #sostenibilita:before {
+        content: "";
+        position: absolute;
+        height: calc(100% - 60px);
+        border-radius: 60px;
+        background-image: url(../img/backgrounds/ambiente-after.jpg);
+        background-size: cover;
+        background-position: center;
+        top: 30px;
+        left: 0px;
+        width: 100%;
+    }
+
+    #sostenibilita .foglio {
+        border-radius:40px;
+        padding: 0px 30px 40px 30px;
+    }
+
+    #sostenibilita .foglio .item {
+        padding-bottom:30px;
+        border-bottom:1px solid rgba(0,0,0,0.1);
+    }
+
+    #sostenibilita .foglio .item:last-child{
+        padding-bottom:0px;
+        border-bottom:none;
+    }
+
+    #testimonials,
+    #corsi-di-formazione,
+    #ambiti-di-intervento {
+        padding:60px 0px;
+    }
+
+    .title-section {
+        margin-bottom:28px;
+    }
+
+    #ambiti-di-intervento .thumbnail-card,
+    #corsi-di-formazione .thumbnail-card {
+        aspect-ratio: 1 / 1;
+        
+    }
+
+    #corsi-di-formazione .col-half:last-child .thumbnail-card,
+    #ambiti-di-intervento .col-4:last-child .thumbnail-card {
+        margin-bottom:0;
+    }
+
+    .thumb-title {
+        padding:0px 26px;
+    }
+
+    .thumb-icona {
+        top:38px;
+        left:38px;
+    }
+
+    .thumbnail-card {
+        margin-bottom:40px;
+    }
+
+    
+
+   
+
+    #testimonials::before,
+    #portlet-news::before,
+    #portlet-prodotti:before {
+        border-radius:60px;
+    }
+
+    #portlet-news,
+    #partners {
+        padding: 60px 0px;
+    }
+
+    .fake-menu p {
+        margin:0px 10px 0px 0px;
+        font-size:14px;
+    }
+
+    #slider-partners .owl-nav {
+        position: absolute;
+        top: -20px;
+        right: 0px;
+    }
+
+
+    footer .general-icon {
+        display:none;
+    }
+
+    footer {
+        border-radius:40px 40px 0px 0px;
+    }
+
+    .foot-logo {
+        width:156px;
+        margin-bottom:26px;
+    }
+
+    .foot-3 .col-half.flex {
+        display:block;
+    }
+
+    .foot-3 .treedom-text {
+        width:100%;
+    }
+
+    .footer-font, 
+    .make-small {
+        font-size:14px;
+    }
+
+    .last-footer-menu ul li {
+        display:block;
+    }
+
+    .sede {
+        padding-left: 15px;
+        background-size: 10px;
+        margin-bottom: 40px;
+    }
+
+
+    /*corporade iphone*/
+    .corp-hero-cont {
+        padding: 40px 0px 0px 0px;
+    }
+
+    #corporate-hero .resp-logo {
+        margin-top:26px;
+        margin-bottom:0;
+    }
+
+    .corp-hero-cont img {
+        height: 34px;
+        margin-top: 16px;
+        left: calc(50% - -24px);
+        position: absolute;
+        top: 5px;
+    }
+
+    #opening-corp img.opening-img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        transform: translateY(-30px);
+    }
+
+    #timeline::after {
+        width:40%;
+        left:0px;
+        top:260px;
+        border-radius:40px;
+        background:var(--blu-gradient)
+    }
+
+    #timeline {
+        padding: 40px 0px;
+        position: relative;
+    }
+
+    .time-card {
+        width:calc(100% - 10px);
+    }
+
+
+    .time-row {
+        position: relative;
+        z-index: 2;
+        margin: 20px 0px;
+    }
+
+    #timeline::before {
+        width:100%;
+        left:0;
+        border-radius: 40px;
+    }
+
+    .timetitle {
+        margin-bottom:40px;
+        text-align:left;
+    }
+
+    .timer-line {
+        left:-10px;
+        top:180px;
+        opacity:.4;
+    }
+    
+    .time-row.justify-right .time-card:before,
+    .time-row.justify-left .time-card:before {
+        left: -29px;
+        height:20px;
+        transform:none;
+        right:auto
+    }
+
+    .time-row.justify-left {
+        justify-content: flex-end;
+    }
+
+    .time-card {
+        padding:16px 26px;
+    }
+
+    #codice-etico {
+        padding:60px 0px;
+        border-radius:40px 40px 0px 0px;
+    }
+
+    #divider-section {
+        padding:50px 0px;
+    }
+
+    #divider-section img {
+        border-radius:30px;
+    }
+
+    #contentleft-imageright.biblio {
+        border-radius:40px 40px 0px 0px;
+    }
+
+    #contentleft-imageright.biblio {
+        padding:60px 0px;
+    }
+
+    #nostri-servizi {
+        padding:60px 0px;
+    }
+
+    #nostri-servizi:before {
+        border-radius:40px;
+        height:calc(100% - 40px);
+        top:20px;
+    }
+
+    #nostri-servizi .thumbnail-card {
+        aspect-ratio: 1 / 1;
+    }
+
+    .newsletter-wrap form input {
+        width:100%;
+        margin-bottom:16px;
+    }
+
+    #newsletter {
+        padding: 40px 0px;
+        background: var(--off-white);
+        border-radius: 40px 40px 0px 0px;
+    }
+
+    #opening-corp {
+        padding: 30px 0px 0px 0px;
+    }
+
+    #corporate-hero .text {
+        max-width:unset;
+    }
+
+
+    #form-esploso form input,
+    #form-esploso form select,
+    #form-esploso form textarea {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    #form-esploso:before {
+        border-radius:40px;
+    }
+
+    #ambiti-sections,
+    #page-news {
+        padding: 60px 0px;
+    }
+
+    #sommario a {
+        margin-bottom:30px;
+    }
+
+    #corporate-hero.blog {
+        padding-bottom:90px;
+    }
+
+    #top-news .col-4 {
+        margin-bottom:0;
+    }
+
+    #top-news .col-4:last-child .news-thumb,
+    #page-news .col-4 .news-thumb {
+        margin-bottom:0;
+    }
+
+    #top-news {
+        border-radius:0px 0px 40px 40px;
+    }
+
+    #page-news {
+        border-radius:40px;
+    }
+
+    .pagination ul li {
+        min-width:auto;
+        margin-right: 6px;
+        padding: 4px;
+        min-width: 40px;
+    }
+
+
+        #top-news.category .col-4:nth-child(2),
+        #top-news.category .col-4:nth-child(3) {
+            margin-top:0px;
+        }
+
+        #top-news.category .col-4 {
+            margin-bottom:0;
+        }
+
+
+
+        #sedi-contatti {
+            background:var(--off-white);
+            padding-bottom:20px;
+            border-radius:0px 0px 40px 40px;
+        }
+        
+        #sedi-contatti .foglio {
+            padding:40px;
+            background:var(--white);
+            border-radius:40px;
+            box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);
+            transform: translateY(-20px);
+        }
+
+        #image-sommario {
+            border-radius:0px 0px 40px 40px;
+        }
+
+        .tempo {
+            margin-top:20px;
+            margin-left:0;
+            width:100%;
+        }
+
+        .post-content img.alignleft,
+        .post-content img.alignright {
+            float:none;
+            width:100%;
+            margin:20px 0px;
+        }
+
+}

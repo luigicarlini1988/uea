@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uomo Ambiente | Home</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--CSS -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- CSS required when there are carousels-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+
+    <!--JS / Jquery -->
+    <script type="text/javascript" src="js/jquery-3-10-1-min.js"></script>
+    <script type="text/javascript" src="js/general-animations.js"></script>
+
+    <!-- JS required when there are carousels-->
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/owl.navigation.js"></script>
+
+    <!-- Activate Carousel for Certificazioni-->
+    <script type="text/javascript" src="js/carousel-certificazioni.js"></script>
+
+    <!-- Activate Carousel for Testimonials-->
+    <script type="text/javascript" src="js/carousel-testimonials.js"></script>
+
+    <!-- Activate Carousel for Partners-->
+    <script type="text/javascript" src="js/carousel-partners.js"></script>
+
+</head>
+
+<body>
+    <span id="burger-menu">
+        <div>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </span>
+    <header id="main-header">
+        <div class="foglio">
+            <div class="pre-header flex justify-evenly">
+                <div class="main-contacts flex align-center">
+                    <div class="phone flex">
+                        <img src="img/icons/phone.svg" />
+                        <a href="tel:800.035.442">800.035.442</a>
+                    </div>
+
+                    <div class="mail flex">
+                        <img src="img/icons/mail.svg" />
+                        <a href="mailto:info@uomoambiente.it">info@uomoambiente.it</a>
+                    </div>
+
+                </div>
+
+                <div class="top-right-ui flex justify-right">
+                    <div class="lang-selector flex">
+                        <span id="current-lang" class="current-lang flex align-center justify-center">IT</span>
+                        <div class="selector flex align-center justify-evenly">
+                            <a rel="alternate" hreflang="it">IT</a>
+                            <a rel="alternate" hreflang="en">ENG</a>
+                        </div>
+                    </div>
+
+                    <div class="top-search">
+                        <input type="search" id="site-search" placeholder="cerca qualcosa nel sito">
+                        <button><img src="img/icons/search-white.svg" /></button>
+                    </div>
+
+                    <a href="#">
+                        <div class="top-user flex align-center justify-center">
+                            <img src="img/icons/user.svg" />
+                        </div>
+                    </a>
+
+                    <a class="no-deco" href="#">
+                        <div class="e-learning flex align-center justify-center">
+                            E-learning
+                        </div>
+                    </a>
+
+                    <a class="no-deco" href="#">
+                        <div id="cart" class="flex justify-right align-center">
+                            <div id="items-counter">
+                                <span id="items-number">2</span>
+                                Items
+                            </div>
+                            <img src="img/icons/cart.svg" />
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+
+            <div id="main-nav">
+                <nav class="flex justify-around align-center">
+                    <div class="first-part-menu">
+                        <ul class="menu">
+                            <li class="menu-item current-menu-item"><a href="#">Home</a></li>
+                            <li class="menu-item"><a href="#">Corporate</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="#">Otherlink here</a></li>
+                                    <li class="menu-item"><a href="#">Other important page here</a></li>
+                                    <li class="menu-item"><a href="#">Here a short one</a></li>
+                                    <li class="menu-item"><a href="#">Veryshort</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#">Ambiti di Intervento</a></li>
+                        </ul>
+                    </div>
+                    <img id="logo-menu" src="img/logos/logo-blu.svg" />
+                    <div class="second-part-menu">
+                        <ul class="menu">
+                            <li class="menu-item"><a href="#">Corsi</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="#">Otherlink here</a></li>
+                                    <li class="menu-item"><a href="#">Other important page here</a></li>
+                                    <li class="menu-item"><a href="#">Here a short one</a></li>
+                                    <li class="menu-item"><a href="#">Veryshort</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#">Servizi</a></li>
+                            <li class="menu-item"><a href="#">Blog</a></li>
+                            <li class="menu-item"><a href="#">Contatti</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!--  <div id="blog-nav">
+                <nav>
+                    <ul>
+                        <li><a href="#">Categoriablog</a></li>
+                        <li><a href="#">Categoriablog</a></li>
+                        <li><a href="#">Categoriablog</a></li>
+                        <li><a href="#">Categoriablog</a></li>
+                        <li><a href="#">Categoriablog</a></li>
+                        <li><a href="#">Categoriablog</a></li>
+                        <li><a href="#">Categoriablog</a></li>
+                        <li><a href="#">Categoriablog</a></li>
+                        <li><a href="#">Categoriablog</a></li>
+                    </ul>
+                </nav>
+            </div> -->
+        </div>
+    </header>
+
+    <section id="home-hero">
+        <div class="home-hero-bg"></div>
+        <div class="foglio flex justify-center align-center">
+            <div class="hero-content">
+                <div class="resp-logo"><img src="img/logos/logo-white.svg" /></div>
+                <p class="titles1 white">
+                    Fai del tuo Business un esempio di progresso sostenibile. È etico e conviene
+                </p>
+                <div class="buttons-wrap flex justify-evenly">
+                    <a href="#" class="buttons-white">Chi Siamo</a>
+                    <a href="#" class="buttons-white">Metodo</a>
+                </div>
+            </div>
+        </div>
+        <div class="discover flex justify-center">
+            <p class="small-text white">Discover more</p>
+            <img src="img/icons/triangul-white.svg" />
+        </div>
+    </section>
+
+    <section id="opening-home">
+        <div class="foglio flex justify-evenly align-center">
+            <div class="col-7">
+                <p class="subtitle main-blu">Uomo e Ambiente</p>
+                <h1 class="titles1 dark-blu">Società Benefit di servizi di <span class="main-blu">consulenza e
+                        formazione</span></h1>
+                <p>Dal 2004 agiamo come sistema integrato e multidisciplinare di competenze per offrire servizi
+                    specialistici nell’ambito della consulenza e della formazione. Contribuiamo alla crescita economica
+                    dei nostri clienti: equità sociale e rispetto della natura, impatto positivo per ambiente e persone.
+                </p>
+                <div class="buttons-wrap flex">
+                    <a class="buttons-dark special" href="#">Servizi</a>
+                    <a class="buttons-dark special" href="#">Corsi</a>
+                </div>
+            </div>
+            <div class="col-5">
+                <img class="opening-img" src="img/onpage/home-opening.jpeg" />
+            </div>
+        </div>
+    </section>
+
+    <section id="certificazioni">
+        <div class="foglio flex">
+            <div class="col-half">
+                <p class="subtitle main-blu">Le nostre</p>
+                <p class="titles1 dark-blu">Certificazioni</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. </p>
+            </div>
+
+            <div id="slider-certificazioni" class="owl-carousel owl-theme">
+                <div class="certificazione-wrapper"><img src="img/onpage/cert.png" /></div>
+                <div class="certificazione-wrapper"><img src="img/onpage/cert.png" /></div>
+                <div class="certificazione-wrapper"><img src="img/onpage/cert.png" /></div>
+                <div class="certificazione-wrapper"><img src="img/onpage/cert.png" /></div>
+                <div class="certificazione-wrapper"><img src="img/onpage/cert.png" /></div>
+                <div class="certificazione-wrapper"><img src="img/onpage/cert.png" /></div>
+                <div class="certificazione-wrapper"><img src="img/onpage/cert.png" /></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="sostenibilita">
+        <div class="foglio flex align-center justify-evenly">
+            <div class="col-4">
+                <h2 class="titles2 dark-blu">
+                    <span class="subtitle main-blu">Sostenibilità</span><br />
+                    Ambientale
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore</p>
+                <a href="#" class="read-more">Read More </a>
+            </div>
+
+            <div class="col-4">
+                <h2 class="titles2 dark-blu">
+                    <span class="subtitle main-blu">Sostenibilità</span><br />
+                    Sociale
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore</p>
+                <a href="#" class="read-more">Read More </a>
+            </div>
+
+            <div class="col-4">
+                <h2 class="titles2 dark-blu">
+                    <span class="subtitle main-blu">Sostenibilità</span><br />
+                    Economica
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore</p>
+                <a href="#" class="read-more">Read More </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ambiti-di-intervento">
+        <div class="foglio">
+            <div class="title-section">
+                <p class="subtitle main-blu">I Nostri</p>
+                <h2 class="titles1">Ambiti di <span class="main-blu">Intervento</span></h2>
+            </div>
+
+            <div class="flex align-center justify-evenly">
+                <div class="col-4">
+                    <a class="no-deco" href="#">
+                        <div class="thumbnail-card flex justify-left align-center">
+                            <div class="thumb-img-wrap"
+                                style="background-image: url(img/onpage/privacy-security.jpeg);">
+                            </div>
+
+                            <div class="thumb-icona">
+                                <img src="img/icons/trigloo-icons/privacy.svg" />
+                            </div>
+
+                            <div class="thumb-title">
+                                <h3 class="titles3 white">Privacy, Cybersecurity e GDPR</h3>
+                            </div>
+
+                            <p class="bottone-speciale">Scopri</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <a class="no-deco" href="#">
+                        <div class="thumbnail-card flex justify-left align-center">
+                            <div class="thumb-img-wrap"
+                                style="background-image: url(img/onpage/privacy-security.jpeg);">
+                            </div>
+
+                            <div class="thumb-icona">
+                                <img src="img/icons/trigloo-icons/salute.svg" />
+                            </div>
+
+                            <div class="thumb-title">
+                                <h3 class="titles3 white">Salute e sicurezza sul lavoro</h3>
+                            </div>
+
+                            <p class="bottone-speciale">Scopri</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-4">
+                    <a class="no-deco" href="#">
+                        <div class="thumbnail-card flex justify-left align-center">
+                            <div class="thumb-img-wrap"
+                                style="background-image: url(img/onpage/privacy-security.jpeg);">
+                            </div>
+
+                            <div class="thumb-icona">
+                                <img src="img/icons/trigloo-icons/sostenibilita.svg" />
+                            </div>
+
+                            <div class="thumb-title">
+                                <h3 class="titles3 white">Sostenibilità e ESG</h3>
+                            </div>
+
+                            <p class="bottone-speciale">Scopri</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <a class="no-deco" href="#">
+                        <div class="thumbnail-card flex justify-left align-center">
+                            <div class="thumb-img-wrap"
+                                style="background-image: url(img/onpage/privacy-security.jpeg);">
+                            </div>
+
+                            <div class="thumb-icona">
+                                <img src="img/icons/trigloo-icons/incentivi.svg" />
+                            </div>
+
+                            <div class="thumb-title">
+                                <h3 class="titles3 white">Incentivi e finanza agevolata</h3>
+                            </div>
+
+                            <p class="bottone-speciale">Scopri</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <a class="no-deco" href="#">
+                        <div class="thumbnail-card flex justify-left align-center">
+                            <div class="thumb-img-wrap"
+                                style="background-image: url(img/onpage/privacy-security.jpeg);">
+                            </div>
+
+                            <div class="thumb-icona">
+                                <img src="img/icons/trigloo-icons/consulenza.svg" />
+                            </div>
+
+                            <div class="thumb-title">
+                                <h3 class="titles3 white">Consulenza</h3>
+                            </div>
+
+                            <p class="bottone-speciale">Scopri</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-4">
+                    <a class="no-deco" href="#">
+                        <div class="thumbnail-card flex justify-left align-center">
+                            <div class="thumb-img-wrap"
+                                style="background-image: url(img/onpage/privacy-security.jpeg);">
+                            </div>
+
+                            <div class="thumb-icona">
+                                <img src="img/icons/trigloo-icons/formazione.svg" />
+                            </div>
+
+                            <div class="thumb-title">
+                                <h3 class="titles3 white">Formazione</h3>
+                            </div>
+
+                            <p class="bottone-speciale">Scopri</p>
+                        </div>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="testimonials">
+        <div class="foglio flex">
+            <div class="col-half">
+                <p class="subtitle main-blu">Testimonials</p>
+                <p class="titles1 dark-blu">Lorem Ipsum</p>
+            </div>
+
+            <div id="slider-testimonials" class="owl-carousel owl-theme">
+                <div class="testimonials-wrapper">
+                    <div class="top flex">
+                        <div class="logo">
+                            <img src="img/onpage/logo-fake.jpg" />
+                        </div>
+                        <div class="test-name">
+                            <p class="titles4 dark-blu">Nome Azienda</p>
+                            <p class="main-blu">Corso seguito / Esperienza</p>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+
+                <div class="testimonials-wrapper">
+                    <div class="top flex">
+                        <div class="logo">
+                            <img src="img/onpage/logo-fake.jpg" />
+                        </div>
+                        <div class="test-name">
+                            <p class="titles4 dark-blu">Nome Azienda</p>
+                            <p class="main-blu">Corso seguito / Esperienza</p>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+
+                <div class="testimonials-wrapper">
+                    <div class="top flex">
+                        <div class="logo">
+                            <img src="img/onpage/logo-fake.jpg" />
+                        </div>
+                        <div class="test-name">
+                            <p class="titles4 dark-blu">Nome Azienda</p>
+                            <p class="main-blu">Corso seguito / Esperienza</p>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+
+                <div class="testimonials-wrapper">
+                    <div class="top flex">
+                        <div class="logo">
+                            <img src="img/onpage/logo-fake.jpg" />
+                        </div>
+                        <div class="test-name">
+                            <p class="titles4 dark-blu">Nome Azienda</p>
+                            <p class="main-blu">Corso seguito / Esperienza</p>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="corsi-di-formazione">
+        <div class="foglio flex justify-evenly align-bottom">
+            <div class="col-half">
+                <p class="subtitle main-blu">I Nostri</p>
+                <a class="no-deco" href="#">
+                    <h2 class="titles1 dark-blu">Corsi di <span
+                            style="color:var(--main-blu); text-decoration:underline">Formazione</span></h2>
+                </a>
+            </div>
+
+            <div class="col-half flex fake-menu justify-right">
+                <p class="dark-blu"><b>In Aula</b></p>
+                <p class="dark-blu"><b>Webinar</b></p>
+                <p class="dark-blu"><b>E-learning</b></p>
+                <p class="dark-blu"><b>Presso il cliente</b></p>
+            </div>
+        </div>
+        <div class="foglio flex justify-evenly align-center">
+
+            <div class="col-half">
+                <a class="no-deco" href="#">
+                    <div class="thumbnail-card flex justify-left align-center">
+                        <div class="thumb-img-wrap" style="background-image: url(img/onpage/privacy-security.jpeg);">
+                        </div>
+
+                        <div class="thumb-title">
+                            <h3 class="titles3 white">Privacy e Protezione Dati</h3>
+                        </div>
+
+                        <p class="bottone-speciale bg-white">Scopri</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-half">
+                <a class="no-deco" href="#">
+                    <div class="thumbnail-card flex justify-left align-center">
+                        <div class="thumb-img-wrap" style="background-image: url(img/onpage/privacy-security.jpeg);">
+                        </div>
+
+                        <div class="thumb-title">
+                            <h3 class="titles3 white">Salute e Sicurezza</h3>
+                        </div>
+
+                        <p class="bottone-speciale bg-white">Scopri</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-half">
+                <a class="no-deco" href="#">
+                    <div class="thumbnail-card flex justify-left align-center">
+                        <div class="thumb-img-wrap" style="background-image: url(img/onpage/privacy-security.jpeg);">
+                        </div>
+
+                        <div class="thumb-title">
+                            <h3 class="titles3 white">People Change Management</h3>
+                        </div>
+
+                        <p class="bottone-speciale bg-white">Scopri</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-half">
+                <a class="no-deco" href="#">
+                    <div class="thumbnail-card flex justify-left align-center">
+                        <div class="thumb-img-wrap" style="background-image: url(img/onpage/privacy-security.jpeg);">
+                        </div>
+
+                        <div class="thumb-title">
+                            <h3 class="titles3 white">Business Management</h3>
+                        </div>
+
+                        <p class="bottone-speciale bg-white">Scopri</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-half">
+                <a class="no-deco" href="#">
+                    <div class="thumbnail-card flex justify-left align-center">
+                        <div class="thumb-img-wrap" style="background-image: url(img/onpage/privacy-security.jpeg);">
+                        </div>
+
+                        <div class="thumb-title">
+                            <h3 class="titles3 white">Sostenibilità / ESG</h3>
+                        </div>
+
+                        <p class="bottone-speciale bg-white">Scopri</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portlet-news">
+        <div class="foglio">
+            <p class="subtitle main-blu">News</p>
+            <a class="no-deco" href="#">
+                <p class="titles1 dark-blu">Dal Nostro <span
+                        style="color:var(--main-blu); text-decoration:underline">Blog</span></p>
+            </a>
+        </div>
+
+        <div class="foglio flex justify-evenly align-top">
+
+            <div class="col-4">
+                <a class="no-deco" href="">
+                    <div class="news-thumb">
+                        <div class="news-img-thumg">
+                            <img src="img/onpage/privacy-security.jpeg" />
+                        </div>
+                        <div class="news-lower-part">
+                            <div class="news-title">
+                                <p class="titles4 dark-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="news-bottom flex justify-evenly">
+                                <p class="small-text main-blu">Category</p>
+                                <a class="read-more" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a class="no-deco" href="">
+                    <div class="news-thumb">
+                        <div class="news-img-thumg">
+                            <img src="img/onpage/privacy-security.jpeg" />
+                        </div>
+                        <div class="news-lower-part">
+                            <div class="news-title">
+                                <p class="titles4 dark-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="news-bottom flex justify-evenly">
+                                <p class="small-text main-blu">Category</p>
+                                <a class="read-more" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a class="no-deco" href="">
+                    <div class="news-thumb">
+                        <div class="news-img-thumg">
+                            <img src="img/onpage/privacy-security.jpeg" />
+                        </div>
+                        <div class="news-lower-part">
+                            <div class="news-title">
+                                <p class="titles4 dark-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="news-bottom flex justify-evenly">
+                                <p class="small-text main-blu">Category</p>
+                                <a class="read-more" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="partners">
+        <div class="foglio flex">
+            <div class="col-half">
+                <p class="subtitle main-blu">Collaborations</p>
+                <p class="titles1 dark-blu">I Nostri <span style="main-blu">Partners</span></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. </p>
+            </div>
+
+            <div id="slider-partners" class="owl-carousel owl-theme">
+
+                <div class="partners-wrapper flex justify-left align-center">
+                    <div class="logo-partner">
+                        <img src="img/onpage/logo-fake.jpg" />
+                    </div>
+                    <div class="name-partner">
+                        <p class="titles5 dark-blu">Taldeitali</p>
+                    </div>
+                </div>
+
+                <div class="partners-wrapper flex justify-left align-center">
+                    <div class="logo-partner">
+                        <img src="img/onpage/logo-fake.jpg" />
+                    </div>
+                    <div class="name-partner">
+                        <p class="titles5 dark-blu">Taldeitali</p>
+                    </div>
+                </div>
+
+                <div class="partners-wrapper flex justify-left align-center">
+                    <div class="logo-partner">
+                        <img src="img/onpage/logo-fake.jpg" />
+                    </div>
+                    <div class="name-partner">
+                        <p class="titles5 dark-blu">Taldeitali</p>
+                    </div>
+                </div>
+
+                <div class="partners-wrapper flex justify-left align-center">
+                    <div class="logo-partner">
+                        <img src="img/onpage/logo-fake.jpg" />
+                    </div>
+                    <div class="name-partner">
+                        <p class="titles5 dark-blu">Taldeitali</p>
+                    </div>
+                </div>
+
+                <div class="partners-wrapper flex justify-left align-center">
+                    <div class="logo-partner">
+                        <img src="img/onpage/logo-fake.jpg" />
+                    </div>
+                    <div class="name-partner">
+                        <p class="titles5 dark-blu">Taldeitali</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="le-sedi">
+        <div class="foglio">
+            <p class="titles1 dark-blu">Le nostre <span class="main-blu">Sedi</span></p>
+        </div>
+
+        <div class="foglio flex justify-evenly">
+            <div class="col-4">
+                <div class="sede">
+                    <p class="dark-blu titles4">Torino <span class="small-text main-blu">sede operativa</span></p>
+                    <p class="no-margin-top">Via Angrogna 16/A, 10139 Torino (TO)<br />
+                        Tel. 800.035.442</p>
+                </div>
+
+                <div class="sede">
+                    <p class="dark-blu titles4">Aosta</p>
+                    <p class="no-margin-top">Rue De La Maladière 90 – 11020 Saint Christophe (AO) – Tel. 800.035.442</p>
+                </div>
+
+                <div class="sede">
+                    <p class="dark-blu titles4">Verona</p>
+                    <p class="no-margin-top">Via G. Marconi 2 – 37036 San Martino B.A. (VR) – Tel. 800.035.442</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+
+                <div class="sede">
+                    <p class="dark-blu titles4">Padova</p>
+                    <p class="no-margin-top">Via Pila 7/A – 35010 Loreggia (PD) Tel. 800.035.442</p>
+                </div>
+
+                <div class="sede">
+                    <p class="dark-blu titles4">Udine</p>
+                    <p class="no-margin-top">Viale Mangiarotti 20 – 33033 Codroipo (UD) Tel. 800.035.442</p>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img class="sedi-mappa" src="img/onpage/ita.jpeg" />
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foglio">
+            <div class="foot-1 flex justify-evenly align-center">
+                <div class="foot-logo">
+                    <img src="img/logos/logo-white.svg" />
+                </div>
+
+                <div class="general-icon">
+                    <img src="img/icons/trigloo-icons/generic.svg" />
+                </div>
+            </div>
+
+            <div class="foot-2 flex justify-evenly align-bottom">
+                <div class="col-half">
+                    <p class="white bold">
+                        Uomo & Ambiente s.r.l. Società Benefit
+                    </p>
+                    <p class="footer-font">
+                        Dal 2004 agiamo come sistema integrato e multidisciplinare di competenze per offrire servizi
+                        specialistici nell’ambito della consulenza e della formazione. Contribuiamo alla crescita
+                        economica dei nostri clienti: equità sociale e rispetto della natura, impatto positivo per
+                        ambiente e persone.
+                    </p>
+                </div>
+                <div class="col-half flex justify-right">
+                    <div class="col-half ul-inner">
+                        <ul>
+                            <li><a href="#">Relazioni d’impatto UeA </a></li>
+                            <li><a href="#">Codice etico </a></li>
+                            <li><a href="#">Relazioni d’impatto UeA </a></li>
+                            <li><a href="#">Codice etico </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-half ul-inner">
+                        <ul>
+                            <li><a href="#">Relazioni d’impatto UeA </a></li>
+                            <li><a href="#">Codice etico </a></li>
+                            <li><a href="#">Relazioni d’impatto UeA </a></li>
+                            <li><a href="#">Codice etico </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="foot-3">
+                <div class="col-half flex justify-evenly align-center">
+                    <a href="https://www.treedom.net/en/" target="_blank" rel="nofollow"><img
+                            src="img/logos/treedom-srl-logo-vector.svg" /></a>
+                    <div class="treedom-text">
+                        <p class="footer-font">Uomo e ambiente sostiene freedom. Clicca sul logo per vedere il nostro
+                            bosco</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="foot-4 flex justify-evenly">
+                <div class="col-half">
+                    <div class="flex align-center">
+                        <img src="img/icons/pin-white.svg">
+                        <p class="bold white no-margin-bottom no-margin-top">Sede legale</p>
+                    </div>
+                    <p class="footer-font">Via Angrogna 16/A, 10139 Torino (TO)<br />
+                        P.I./C.F. 10874480014<br />
+                        Registro delle Imprese di Torino | C.C.I.A.A. Torino REA TO – 1168640<br />
+                        Capitale sociale €100.000,00 i.v.<br />
+                        PEC: uomoeambientesrl@pec.it</p>
+
+                </div>
+                <div class="col-half">
+                    <div class="flex align-center">
+                        <img src="img/icons/pin-white.svg">
+                        <p class="bold white no-margin-bottom no-margin-top">Le nostre sedi operative</p>
+                    </div>
+                    <p class="white make-small">
+                        Torino <span class="footer-font">Via Angrogna 16/A, 10139 Torino </span><br />
+                        Aosta <span class="footer-font">Rue De La Maladière 90 – 11020 Saint Christophe </span><br />
+                        Verona <span class="footer-font">Via G. Marconi 2 – 37036 San Martino B.A </span><br />
+                        Padova <span class="footer-font">Via Pila 7/A – 35010 Loreggia (PD) </span><br />
+                        Udine <span class="footer-font">Viale Mangiarotti 20 – 33033 Codroipo </span><br />
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="foot-5 flex justify-evenly">
+                <div>
+                    <p class="footer-font small-text">Copyright © 2020 Uomo & Ambiente s.r.l. Società Benefit PI/CF
+                        10874480014</p>
+                </div>
+                <div class="last-footer-menu">
+                    <ul>
+                        <li> <a href="#">Sitemap</a></li>
+                        <li> <a href="#">Privacy</a></li>
+                        <li> <a href="#">Verylonglabel</a></li>
+                        <li> <a href="#">Privacy</a></li>
+                        <li> <a href="#">Verylonglabel</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
