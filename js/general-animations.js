@@ -19,6 +19,10 @@ $(document).ready(function () {
         $(this).toggleClass('exer');
     });
 
+    $("#resp-filter-toggle").on('click', function () {
+        $("#sidebar").toggleClass('enter');
+    });
+
 
     var coll = document.getElementsByClassName("collapsible");
     var i;

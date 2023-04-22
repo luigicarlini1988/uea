@@ -45,99 +45,106 @@
     <section id="shop-area">
         <div class="foglio flex justify-evenly">
             <div class="col-3-s">
-                <div class="filters-box">
-                    <p class="fake-lab white bold">Filtra Corsi</p>
-                    <form id="shop-filter">
-                        <select>
-                            <option value="volvo">Modalità erogazione</option>
-                            <option value="saab">Primo modo</option>
-                            <option value="mercedes">Secondo modo</option>
-                            <option value="audi">Terzo modo</option>
-                        </select>
-
-                        <select>
-                            <option value="volvo">Categoria</option>
-                            <option value="saab">Primo modo</option>
-                            <option value="mercedes">Secondo modo</option>
-                            <option value="audi">Terzo modo</option>
-                        </select>
-
-                        <select>
-                            <option value="volvo">Aggiornamento/Base</option>
-                            <option value="saab">Primo modo</option>
-                            <option value="mercedes">Secondo modo</option>
-                            <option value="audi">Terzo modo</option>
-                        </select>
-
-                        <div class="check-cont flex align-center justify-left">
-                            <input type="checkbox">
-                            <p class="small-text white">Tipo lavoratore 1</p>
-                        </div>
-                        <div class="check-cont flex align-center justify-left">
-                            <input type="checkbox">
-                            <p class="small-text white">Tipo lavoratore 2</p>
-                        </div>
-                        <div class="check-cont flex align-center justify-left">
-                            <input type="checkbox">
-                            <p class="small-text white">Tipo lavoratore 3</p>
-                        </div>
-
-                        <button class="buttons-white">Filtra Corsi</button>
-
-                    </form>
+                <div id="resp-filter-toggle" class="flex align-center">
+                    <img src="img/icons/filters.svg" />
+                    <p class="white bold">Filtra Corsi</p>
                 </div>
+                <div id="sidebar">
+                    <div class="filters-box">
+                        <p class="fake-lab white bold">Filtra Corsi</p>
+                        <form id="shop-filter">
+                            <select>
+                                <option value="volvo">Modalità erogazione</option>
+                                <option value="saab">Primo modo</option>
+                                <option value="mercedes">Secondo modo</option>
+                                <option value="audi">Terzo modo</option>
+                            </select>
 
-                <div class="shop-categorie">
-                    <p class="white bold">Categorie</p>
-                    <ul>
-                        <li>
-                            <a href="#">Categoria</a>
-                        </li>
-                        <li>
-                            <a href="#">Categoria</a>
-                            <ul>
-                                <li><a href="#">Sottocategoria</a>
-                                    <ul>
-                                        <li><a href="#">Sotto Sottocategoria</a></li>
-                                        <li><a href="#">Sotto Sottocategoria</a></li>
-                                        <li><a href="#">Sotto Sottocategoria</a></li>
-                                    </ul>
-                                </li>
+                            <select>
+                                <option value="volvo">Categoria</option>
+                                <option value="saab">Primo modo</option>
+                                <option value="mercedes">Secondo modo</option>
+                                <option value="audi">Terzo modo</option>
+                            </select>
 
-                                <li><a href="#">Sottocategoria</a>
-                                    <ul>
-                                        <li><a href="#">Sotto Sottocategoria</a></li>
-                                        <li><a href="#">Sotto Sottocategoria</a></li>
-                                        <li><a href="#">Sotto Sottocategoria</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Categoria</a>
-                        </li>
-                        <li>
-                            <a href="#">Categoria</a>
-                        </li>
-                        <li>
-                            <a href="#">Categoria</a>
-                            <ul>
-                                <li><a href="#">Sottocategoria</a></li>
-                                <li><a href="#">Sottocategoria</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                            <select>
+                                <option value="volvo">Aggiornamento/Base</option>
+                                <option value="saab">Primo modo</option>
+                                <option value="mercedes">Secondo modo</option>
+                                <option value="audi">Terzo modo</option>
+                            </select>
 
-                <?php 
+                            <div class="check-cont flex align-center justify-left">
+                                <input type="checkbox">
+                                <p class="small-text white">Tipo lavoratore 1</p>
+                            </div>
+                            <div class="check-cont flex align-center justify-left">
+                                <input type="checkbox">
+                                <p class="small-text white">Tipo lavoratore 2</p>
+                            </div>
+                            <div class="check-cont flex align-center justify-left">
+                                <input type="checkbox">
+                                <p class="small-text white">Tipo lavoratore 3</p>
+                            </div>
+
+                            <button class="buttons-white">Filtra Corsi</button>
+
+                        </form>
+                    </div>
+
+                    <div class="shop-categorie">
+                        <p class="white bold">Categorie</p>
+                        <ul>
+                            <li>
+                                <a href="#">Categoria</a>
+                            </li>
+                            <li>
+                                <a href="#">Categoria</a>
+                                <ul>
+                                    <li><a href="#">Sottocategoria</a>
+                                        <ul>
+                                            <li><a href="#">Sotto Sottocategoria</a></li>
+                                            <li><a href="#">Sotto Sottocategoria</a></li>
+                                            <li><a href="#">Sotto Sottocategoria</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="#">Sottocategoria</a>
+                                        <ul>
+                                            <li><a href="#">Sotto Sottocategoria</a></li>
+                                            <li><a href="#">Sotto Sottocategoria</a></li>
+                                            <li><a href="#">Sotto Sottocategoria</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Categoria</a>
+                            </li>
+                            <li>
+                                <a href="#">Categoria</a>
+                            </li>
+                            <li>
+                                <a href="#">Categoria</a>
+                                <ul>
+                                    <li><a href="#">Sottocategoria</a></li>
+                                    <li><a href="#">Sottocategoria</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <?php 
                     include('incl/card-cta-shop.html') ;
-                ?>
+                        ?>
 
 
-                <?php 
+                    <?php 
                     include('incl/card-cta-shop-white.html') ;
-                ?>
+                    ?>
+
+                </div>
             </div>
+
             <div class="col-9">
                 <div class="breadcrumbs flex justify-left">
                     <a href="#">Corsi</a>
@@ -181,7 +188,7 @@
                             <img src="img/onpage/corso-random.jpeg" />
                             <div class="product-card-content">
                                 <p class="very-small-text main-blu">Certificazioni e SDG Sicurezza</p>
-                                <h3 class="dark-blu titles5">Titolo che andrà su due ma magari potrebbe anche tre</h3>
+                                <h3 class="dark-blu titles5">Titolo che andrà su due</h3>
                                 <div class="erogaz flex">
                                     <p class="very-small-text dark-blu">Aula</p>
                                     <p class="very-small-text dark-blu">E-learning</p>

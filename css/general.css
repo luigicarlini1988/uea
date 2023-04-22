@@ -2670,3 +2670,7 @@ form#shop-filter {
 .woocommerce footer {
     border-radius:0px 80px 0px 0px;
 }
+
+#resp-filter-toggle {
+    display:none;
+}
