@@ -2868,6 +2868,11 @@ a.buttons-liner {
     margin-bottom:20px;
 }
 
+a.buttons-liner:hover {
+    background:var(--dark-blu);
+    border-color:var(--dark-blu);
+}
+
 #divider-section .col-7 {
     width:calc(58% - 40px);
 }
