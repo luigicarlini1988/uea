@@ -2851,6 +2851,7 @@ form#shop-filter {
     border-radius: 0;
     box-shadow: none;
     width:26px;
+    height:26px;
     padding:4px;
     margin-right:6px;
     object-fit: contain;

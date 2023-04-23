@@ -49,6 +49,20 @@ and (orientation: portrait) {
     #shop-area .col-4 {
         width:calc(50% - 15px);
     }
+    #corporate-hero.prodotto-esploso .corp-hero-bg {
+        height:100%;
+    }
+
+    .small-content-detail {
+        margin-top:40px;
+    }
+
+    #corporate-hero.prodotto-esploso .resp-logo img {
+        height:auto;
+        aspect-ratio: auto;
+        object-fit: contain;
+        border-radius:0;
+    }
 }
 
 @media screen and (max-width:1050px) {
@@ -61,6 +75,8 @@ and (orientation: portrait) {
     #portlet-prodotti .flex-grid .item {
         width: calc(50% - 15px);
     }
+
+    
 }
 
 
@@ -444,8 +460,30 @@ and (orientation: portrait) {
         padding: 120px 0px 0px 0px;
     }
 
-  
-   
+    #corporate-hero.prodotto-esploso .corp-hero-cont img.featured-product 
+
+    {
+        position:relative;
+        left:0;
+        aspect-ratio: 16 / 9;
+    }
+
+    #corporate-hero.prodotto-esploso .corp-hero-cont {
+        padding: 100px 0px 0px 0px;
+    }
+
+    #corporate-hero.prodotto-esploso .corp-hero-cont .titles2 {
+        margin-bottom:0;
+    }
+
+    #divider-section.in-shop {
+        padding:80px 0px;
+    }
+
+    #divider-section.in-shop .titles1 {
+        margin-top:60px;
+    }
+
 
 }
 
@@ -770,8 +808,13 @@ and (orientation: portrait) {
 
 
     /*corporade iphone*/
-    .corp-hero-cont {
+    .corp-hero-cont,
+    #corporate-hero.prodotto-esploso .corp-hero-cont {
         padding: 40px 0px 0px 0px;
+    }
+
+    #corporate-hero.prodotto-esploso .corp-hero-cont img.featured-product {
+        margin-top:0;
     }
 
     #corporate-hero .resp-logo {
@@ -1078,6 +1121,32 @@ and (orientation: portrait) {
 
         #portlet-prodotti .flex-grid .item {
             width: 100%;
+        }
+
+        .big-price {
+            position: absolute;
+            top: -50px;
+            right: 0;
+            padding: 8px;
+            background: var(--dark-blu);
+            border-radius: 12px;
+        }
+
+        .plug-in-wizard-wrap {
+            padding:10px;
+        }
+
+        #prodotto-page-content {
+            padding-bottom:60px;
+        }
+
+        #divider-section.in-shop,
+        #prodotto-page-content.second-section {
+            padding: 60px 0px;
+        }
+
+        #divider-section.in-shop .titles1 {
+            margin-top: 30px;
         }
 
 }
