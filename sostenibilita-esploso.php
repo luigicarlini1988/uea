@@ -99,7 +99,7 @@
 
 
 
-    <section id="ambiti-sections">
+    <section id="ambiti-sections" class="no-invert">
         <div class="foglio flex justify-evenly align-center right-image">
 
             <h2 class="titles2 dark-blu">Titolo andrà qui</h2>

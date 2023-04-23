@@ -51,6 +51,18 @@ and (orientation: portrait) {
     }
 }
 
+@media screen and (max-width:1050px) {
+    #portlet-prodotti .flex-grid {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+    }
+
+    #portlet-prodotti .flex-grid .item {
+        width: calc(50% - 15px);
+    }
+}
+
 
 @media screen and (max-width:900px) {
     .col-7,
@@ -355,6 +367,12 @@ and (orientation: portrait) {
         transform:scaleY(-1);
     }
 
+    #ambiti-sections.no-invert .right-image {
+        transform:scaleY(1);
+    }
+
+    
+
     #ambiti-sections .right-image .col-4,
     #ambiti-sections .right-image .col-8 {
         transform:scaleY(-1);
@@ -425,6 +443,8 @@ and (orientation: portrait) {
     #corporate-hero.shop .corp-hero-cont {
         padding: 120px 0px 0px 0px;
     }
+
+  
    
 
 }
@@ -1054,6 +1074,10 @@ and (orientation: portrait) {
         .blog-search input,
         .blog-search {
             width:100%;
+        }
+
+        #portlet-prodotti .flex-grid .item {
+            width: 100%;
         }
 
 }
