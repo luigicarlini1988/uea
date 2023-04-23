@@ -46,7 +46,7 @@
         <div class="foglio flex justify-evenly">
             <div class="col-4">
                 <div class="sidecar duration flex justify-left">
-                    <p class="white bold">Duration:</p>
+                    <p class="white bold">Durata corso:</p>
                     <p class="white"><i>16 ore</i></p>
                 </div>
 
@@ -94,7 +94,7 @@
                     </div>
 
                     <div class="nota-bene">
-                        <p class="dark-blu blod titles5">Not bene</p>
+                        <p class="dark-blu blod titles5">Nota bene</p>
                         <p class="dark-blu"><i>Il Corso verrà erogato al raggiungimento del numero minimo di
                                 partecipanti</i></p>
                     </div>
