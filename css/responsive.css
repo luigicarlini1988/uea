@@ -10,7 +10,7 @@ and (orientation: portrait) {
 
 /* all others*/
 
-@media screen and (max-width:1120px) {
+@media screen and (max-width:1181px) {
     .main-contacts {
         display:none;
     }
@@ -62,7 +62,10 @@ and (orientation: portrait) {
     .result-item .image-wrap,
     .result-item .text-result,
     #image-sommario .col-8,
-    #shop-area .col-4 {
+    #shop-area .col-4,
+    #corporate-hero.prodotto-esploso  .col-4,
+    #prodotto-page-content  .col-4,
+    #divider-section .col-7  {
         width:100%;
     }
 
@@ -1007,7 +1010,7 @@ and (orientation: portrait) {
         }
 
         #corporate-hero.shop {
-            padding-bottom:40px;
+            padding-bottom:20px;
         }
 
         #shop-area .col-3-s #card-cta {
@@ -1046,6 +1049,11 @@ and (orientation: portrait) {
 
         #shop-area .col-9 {
             padding:40px 0px;
+        }
+
+        .blog-search input,
+        .blog-search {
+            width:100%;
         }
 
 }
