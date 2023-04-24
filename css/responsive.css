@@ -489,9 +489,17 @@ and (orientation: portrait) {
     }
 
 
+    .top-right-ui {
+        margin-right:20px;
+    }
+
 }
 
 @media screen and (max-width:740px){
+
+    .top-right-ui {
+        margin-right:0px;
+    }
 
     .col-3,
     #shop-area .col-3-s,
