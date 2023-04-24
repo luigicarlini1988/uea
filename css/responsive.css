@@ -291,6 +291,10 @@ and (orientation: portrait) {
         padding:120px 0px 80px 0px;
     }
 
+    .supersimple .corp-hero-cont {
+        padding:120px 0px 20px 0px;
+    }
+
     .resp-logo {
         left:0;
     }
@@ -809,7 +813,8 @@ and (orientation: portrait) {
 
     /*corporade iphone*/
     .corp-hero-cont,
-    #corporate-hero.prodotto-esploso .corp-hero-cont {
+    #corporate-hero.prodotto-esploso .corp-hero-cont,
+    .supersimple .corp-hero-cont {
         padding: 40px 0px 0px 0px;
     }
 
@@ -970,6 +975,10 @@ and (orientation: portrait) {
 
     #corporate-hero.blog {
         padding-bottom:90px;
+    }
+
+    #corporate-hero.blog.supersimple {
+        padding-bottom:50px;
     }
 
     #top-news .col-4 {
@@ -1147,6 +1156,15 @@ and (orientation: portrait) {
 
         #divider-section.in-shop .titles1 {
             margin-top: 30px;
+        }
+
+        #shop-generic-page {
+            padding:40px 0px;
+        }
+
+        #shop-generic-page .generic-stuff {
+            padding:20px;
+            border-radius:28px;
         }
 
 }

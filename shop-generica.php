@@ -49,7 +49,7 @@
      ?>
 
     <?php
-        include ('incl/top-header-simple.html');
+        include ('incl/top-header-supersimple.html');
 
      ?>
     <section id="shop-generic-page">

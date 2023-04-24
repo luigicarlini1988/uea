@@ -2915,4 +2915,8 @@ a.buttons-liner:hover {
     box-shadow: 0px 0px 20px var(--trasp-dark-blu-3);
   }
 
+  .supersimple .corp-hero-cont {
+    padding: 180px 0px 20px 0px;
+  }
+
   
