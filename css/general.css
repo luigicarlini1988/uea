@@ -1092,6 +1092,11 @@ footer .general-icon {
     opacity:1;
 }
 
+.social-footer img {
+    width:24px;
+    margin-right:12px;
+}
+
 
 /* header nav */
 
