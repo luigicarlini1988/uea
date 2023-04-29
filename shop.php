@@ -153,9 +153,8 @@
                     <span class="dark-blu"> > </span>
                     <p class="dark-blu current" href="#">Current Page</p>
                 </div>
-                <div class="flex justify-evenly">
-
-                    <div class="col-4">
+                <div class="flex-grid">
+                    <div class="item">
                         <div id="product-card">
                             <img src="img/onpage/corso-random.jpeg" />
                             <div class="product-card-content">
@@ -182,36 +181,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-4">
-                        <div id="product-card">
-                            <img src="img/onpage/corso-random.jpeg" />
-                            <div class="product-card-content">
-                                <p class="very-small-text main-blu">Certificazioni e SDG Sicurezza</p>
-                                <h3 class="dark-blu titles5">Titolo che andrà su due</h3>
-                                <div class="erogaz flex">
-                                    <p class="very-small-text dark-blu">Aula</p>
-                                    <p class="very-small-text dark-blu">E-learning</p>
-                                    <p class="very-small-text dark-blu">Webinar</p>
-                                    <p class="very-small-text dark-blu">Domicilio</p>
-                                </div>
-                                <div class="flex align-center justify-evenly">
-                                    <div class="duration">16 ore</div>
-                                    <div class="price">
-                                        <p class="dark-blu price">299,99<span class="small-text main-blu bold">€</span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="but">
-                                    <button class="button-shop-detail">Dettagli corso</button>
-                                    <button class="button-shop-compra">Acquista corso</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-4">
+                    <div class="item">
                         <div id="product-card">
                             <img src="img/onpage/corso-random.jpeg" />
                             <div class="product-card-content">
@@ -238,8 +208,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-4">
+                    <div class="item">
                         <div id="product-card">
                             <img src="img/onpage/corso-random.jpeg" />
                             <div class="product-card-content">
@@ -266,8 +235,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-4">
+                    <div class="item">
                         <div id="product-card">
                             <img src="img/onpage/corso-random.jpeg" />
                             <div class="product-card-content">
@@ -294,8 +262,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-4">
+                    <div class="item">
                         <div id="product-card">
                             <img src="img/onpage/corso-random.jpeg" />
                             <div class="product-card-content">
@@ -322,8 +289,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-4">
+                    <div class="item">
                         <div id="product-card">
                             <img src="img/onpage/corso-random.jpeg" />
                             <div class="product-card-content">
@@ -350,8 +316,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-4">
+                    <div class="item">
                         <div id="product-card">
                             <img src="img/onpage/corso-random.jpeg" />
                             <div class="product-card-content">
@@ -378,8 +343,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-4">
+                    <div class="item">
                         <div id="product-card">
                             <img src="img/onpage/corso-random.jpeg" />
                             <div class="product-card-content">
@@ -406,6 +370,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="foglio flex">
 
                     <div class="pagination">
                         <nav class="navigation pagination" aria-label="A">

@@ -65,45 +65,39 @@
             </div>
         </div>
 
-        <div class="foglio flex justify-evenly">
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
+        <div class="foglio flex-grid">
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
 
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
+            <div class="item">
+                <a href="#">
+                    <p>tedto della certif</p>
+                </a>
             </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
+
+            <div class="item">
+
+                <p>tedto della certif</p>
+
             </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
+
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
 
-            <div class="col-3">
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
-            <div class="col-3">
+
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
-            <div class="col-3">
+
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
+
 
         </div>
     </section>
@@ -123,43 +117,32 @@
             </div>
         </div>
 
-        <div class="foglio flex justify-evenly">
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
+        <div class="foglio flex-grid">
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
 
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
 
-            <div class="col-3">
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
-            <div class="col-3">
+
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
-            <div class="col-3">
+
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
-            <div class="col-3">
+
+            <div class="item">
+                <img src="img/onpage/cert.png" />
+            </div>
+
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
 

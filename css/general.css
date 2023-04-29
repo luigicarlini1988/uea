@@ -45,6 +45,14 @@ a {
     transition-duration: .2s;
 }
 
+a.no-deco.dark-blu:hover {
+    color:var(--main-blu);
+}
+
+p a:hover {
+    font-weight:700;
+}
+
 .small-text {
     font-size:14px;
     margin:0;
@@ -305,6 +313,10 @@ a {
 
 .col-half {
     width:calc(50% - 18px);
+}
+
+.col-full {
+    width:calc(100%);
 }
 
 
@@ -1595,6 +1607,7 @@ header#main-header.topper {
 
 .time-card {
     width:calc(50% - 50px);
+    min-width:calc(50% - 50px);
     padding:20px 40px;
     border-radius:30px;
     box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);
@@ -1831,7 +1844,15 @@ header#main-header.topper {
     border-radius: 20px;
     box-shadow: 4px 4px 8px var(--trasp-dark-blu-2);
     overflow: hidden;
-    margin-bottom:30px;
+    margin-bottom:0px;
+}
+
+#clienti .flex-grid,
+#certificazioni-esplosa .flex-grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 #certificazioni-esplosa .top-title {
@@ -1844,6 +1865,10 @@ header#main-header.topper {
     margin:0px 6px 0px 0px;
     line-height:1em;
     font-size: 14px;
+}
+
+.breadcrumbs a:hover {
+    font-weight:700;
 }
 
 #ambiti-sections {
@@ -2141,6 +2166,19 @@ header#main-header.topper {
     margin-bottom:50px;
 }
 
+#page-news .item,
+#top-news.category .item {
+    width:100%;
+}
+
+#page-news .flex-grid,
+#top-news.category .flex-grid {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom:50px;
+}
+
 .pagination {
     width:100%;
     margin-top:0px;
@@ -2173,7 +2211,11 @@ header#main-header.topper {
 
 #top-news.category .col-4:nth-child(1),
 #top-news.category .col-4:nth-child(2),
-#top-news.category .col-4:nth-child(3) {
+#top-news.category .col-4:nth-child(3),
+
+#top-news.category .item:nth-child(1),
+#top-news.category .item:nth-child(2),
+#top-news.category .item:nth-child(3){
     margin-top:-60px;
 }
 
@@ -2315,6 +2357,8 @@ header#main-header.topper {
 
 #post-wp-content #card-cta {
     margin-bottom:40px;
+    position: sticky;
+    top: 120px;
 }
 
 .post-content ol li,
@@ -2550,6 +2594,17 @@ form#shop-filter {
     width:calc(33.33% - 15px)
 }
 
+#shop-area .flex-grid {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#shop-area .flex-grid #product-card {
+    margin-bottom:10px;
+}
+
 #product-card {
     min-height:300px;
     width:100%;
@@ -2618,6 +2673,12 @@ form#shop-filter {
     cursor:pointer;
     position: relative;
 
+}
+
+.button-shop-detail a {
+    color:var(--white);
+    font-weight:700;
+    text-decoration:none;
 }
 
 .button-shop-detail:hover {
@@ -2918,5 +2979,42 @@ a.buttons-liner:hover {
   .supersimple .corp-hero-cont {
     padding: 180px 0px 20px 0px;
   }
+
+
+
+  #certificazioni-esplosa .flex-grid .item p{
+    background:var(--off-white);
+    border-radius:20px;
+    padding:20px;
+    margin:0;
+    color:var(--dark-blu);
+    text-decoration:none;
+    box-shadow: 4px 4px 8px var(--trasp-dark-blu-2);
+  }
+
+  #certificazioni-esplosa .flex-grid .item a {
+    text-decoration:none;
+  }
+
+  #certificazioni-esplosa .flex-grid .item a p {
+    color:var(--main-blu);
+    text-decoration:underline;
+    transition-duration:.2s;
+  }
+
+  #certificazioni-esplosa .flex-grid .item a p:hover {
+    background:var(--main-blu);
+    color:var(--white);
+  }
+
+
+  
+    #ambiti-sections .col-4 img.replace-cta{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 1 / 1;
+    }
+  
 
   

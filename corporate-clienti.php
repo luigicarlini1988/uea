@@ -54,43 +54,32 @@
 
      ?>
     <section id="clienti">
-        <div class="foglio flex justify-evenly">
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
+        <div class="foglio flex-grid">
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
 
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
-                <img src="img/onpage/cert.png" />
-            </div>
-            <div class="col-3">
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
 
-            <div class="col-3">
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
-            <div class="col-3">
+
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
-            <div class="col-3">
+
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
-            <div class="col-3">
+
+            <div class="item">
+                <img src="img/onpage/cert.png" />
+            </div>
+
+            <div class="item">
                 <img src="img/onpage/cert.png" />
             </div>
 

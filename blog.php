@@ -120,8 +120,8 @@
      ?>
 
     <section id="page-news">
-        <div class="foglio flex justify-evenly">
-            <div class="col-4">
+        <div class="foglio flex-grid">
+            <div class="item">
                 <a class="no-deco" href="">
                     <div class="news-thumb">
                         <div class="news-img-thumg">
@@ -140,7 +140,7 @@
                 </a>
             </div>
 
-            <div class="col-4">
+            <div class="item">
                 <a class="no-deco" href="">
                     <div class="news-thumb">
                         <div class="news-img-thumg">
@@ -159,7 +159,7 @@
                 </a>
             </div>
 
-            <div class="col-4">
+            <div class="item">
                 <a class="no-deco" href="">
                     <div class="news-thumb">
                         <div class="news-img-thumg">
@@ -178,7 +178,7 @@
                 </a>
             </div>
 
-            <div class="col-4">
+            <div class="item">
                 <a class="no-deco" href="">
                     <div class="news-thumb">
                         <div class="news-img-thumg">
@@ -197,7 +197,7 @@
                 </a>
             </div>
 
-            <div class="col-4">
+            <div class="item">
                 <a class="no-deco" href="">
                     <div class="news-thumb">
                         <div class="news-img-thumg">
@@ -216,82 +216,9 @@
                 </a>
             </div>
 
-            <div class="col-4">
-                <a class="no-deco" href="">
-                    <div class="news-thumb">
-                        <div class="news-img-thumg">
-                            <img src="img/onpage/privacy-security.jpeg" />
-                        </div>
-                        <div class="news-lower-part">
-                            <div class="news-title">
-                                <p class="titles4 dark-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="news-bottom flex justify-evenly">
-                                <p class="small-text main-blu">Category</p>
-                                <a class="read-more" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+        </div>
 
-            <div class="col-4">
-                <a class="no-deco" href="">
-                    <div class="news-thumb">
-                        <div class="news-img-thumg">
-                            <img src="img/onpage/privacy-security.jpeg" />
-                        </div>
-                        <div class="news-lower-part">
-                            <div class="news-title">
-                                <p class="titles4 dark-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="news-bottom flex justify-evenly">
-                                <p class="small-text main-blu">Category</p>
-                                <a class="read-more" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-4">
-                <a class="no-deco" href="">
-                    <div class="news-thumb">
-                        <div class="news-img-thumg">
-                            <img src="img/onpage/privacy-security.jpeg" />
-                        </div>
-                        <div class="news-lower-part">
-                            <div class="news-title">
-                                <p class="titles4 dark-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="news-bottom flex justify-evenly">
-                                <p class="small-text main-blu">Category</p>
-                                <a class="read-more" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-4">
-                <a class="no-deco" href="">
-                    <div class="news-thumb">
-                        <div class="news-img-thumg">
-                            <img src="img/onpage/privacy-security.jpeg" />
-                        </div>
-                        <div class="news-lower-part">
-                            <div class="news-title">
-                                <p class="titles4 dark-blu">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="news-bottom flex justify-evenly">
-                                <p class="small-text main-blu">Category</p>
-                                <a class="read-more" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
+        <div class="foglio flex">
             <div class="pagination">
                 <nav class="navigation pagination" aria-label="A">
 

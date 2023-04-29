@@ -49,6 +49,14 @@ and (orientation: portrait) {
     #shop-area .col-4 {
         width:calc(50% - 15px);
     }
+
+    #shop-area .flex-grid {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
     #corporate-hero.prodotto-esploso .corp-hero-bg {
         height:100%;
     }
@@ -492,6 +500,50 @@ and (orientation: portrait) {
     .top-right-ui {
         margin-right:20px;
     }
+
+
+    #page-news .item {
+        
+    }
+
+    #page-news .flex-grid,
+    #top-news.category .flex-grid {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom:50px;
+}
+
+
+#top-news.category .col-4:nth-child(3), 
+#top-news.category .item:nth-child(3) {
+    margin-top:0;
+}
+
+#top-news.category .news-thumb {
+    margin-bottom:0;
+}
+
+#clienti .flex-grid,
+#certificazioni-esplosa .flex-grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#post-wp-content #card-cta {
+ 
+    position: relative;
+    top: 0px;
+}
+
+#shop-area .flex-grid {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    flex-wrap: wrap;
+}
 
 }
 
@@ -1174,5 +1226,28 @@ and (orientation: portrait) {
             padding:20px;
             border-radius:28px;
         }
+
+        #page-news .flex-grid,
+        #top-news.category .flex-grid {
+            display:grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 30px;
+            margin-bottom:50px;
+            }
+
+
+        #top-news.category .col-4:nth-child(2), 
+        #top-news.category .item:nth-child(2) {
+            margin-top:0;
+    }
+
+    #clienti .flex-grid,
+    #certificazioni-esplosa .flex-grid{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
 
 }
