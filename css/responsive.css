@@ -545,6 +545,10 @@ and (orientation: portrait) {
     flex-wrap: wrap;
 }
 
+#cta-bottom {
+    display:none;
+}
+
 }
 
 @media screen and (max-width:740px){

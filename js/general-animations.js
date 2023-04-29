@@ -3,10 +3,12 @@ $(document).ready(function () {
         var scrollLimit = 100;
         if (window.scrollY >= scrollLimit) {
             $("#main-header").addClass("topper");
+            $("#cta-bottom").addClass("enter");
         }
 
         if (window.scrollY <= scrollLimit) {
             $("#main-header").removeClass("topper");
+            $("#cta-bottom").removeClass("enter");
         }
     };
 
