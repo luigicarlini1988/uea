@@ -2357,6 +2357,10 @@ header#main-header.topper {
 
 #post-wp-content #card-cta {
     margin-bottom:40px;
+    
+}
+
+#post-wp-content .stickit {
     position: sticky;
     top: 120px;
 }

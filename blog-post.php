@@ -172,13 +172,16 @@
                 </div>
             </div>
             <div class="col-4">
-                <?php 
+                <div class="stickit">
+                    <?php 
                     include('incl/card-cta.html') ;
-                ?>
+                    ?>
 
-                <?php 
+
+                    <?php 
                     include('incl/card-cta.html') ;
-                ?>
+                    ?>
+                </div>
             </div>
         </div>
     </section>

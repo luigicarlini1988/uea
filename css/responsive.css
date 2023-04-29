@@ -532,8 +532,8 @@ and (orientation: portrait) {
     flex-wrap: wrap;
 }
 
-#post-wp-content #card-cta {
- 
+#post-wp-content #card-cta,
+#post-wp-content .stickit {
     position: relative;
     top: 0px;
 }
