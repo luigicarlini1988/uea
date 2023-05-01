@@ -64,7 +64,7 @@
 
 
 
-    <section id="ambiti-sections">
+    <section class="ambiti-sections">
 
         <div class="foglio flex justify-evenly align-center left-image">
             <div class="col-4">

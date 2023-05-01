@@ -362,7 +362,7 @@ and (orientation: portrait) {
         aspect-ratio: 16 / 9;
     }
 
-    #card-cta {
+    .card-cta {
         margin-top:40px;
     }
 
@@ -383,30 +383,30 @@ and (orientation: portrait) {
 
     /* ambiti aggregativa*/
 
-    #ambiti-sections .thumbnail-card {
+    .ambiti-sections .thumbnail-card {
         aspect-ratio: 16 / 9;
     }
 
-    #ambiti-sections .col-8 {
+    .ambiti-sections .col-8 {
         margin-top:50px;
     }
 
-    #ambiti-sections .right-image {
+    .ambiti-sections .right-image {
         transform:scaleY(-1);
     }
 
-    #ambiti-sections.no-invert .right-image {
+    .ambiti-sections.no-invert .right-image {
         transform:scaleY(1);
     }
 
     
 
-    #ambiti-sections .right-image .col-4,
-    #ambiti-sections .right-image .col-8 {
+    .ambiti-sections .right-image .col-4,
+    .ambiti-sections .right-image .col-8 {
         transform:scaleY(-1);
     }
 
-    #ambiti-sections .right-image .col-8 {
+    .ambiti-sections .right-image .col-8 {
         margin-bottom:50px;
         margin-top:0;
     }
@@ -532,7 +532,7 @@ and (orientation: portrait) {
     flex-wrap: wrap;
 }
 
-#post-wp-content #card-cta,
+#post-wp-content .card-cta,
 #post-wp-content .stickit {
     position: relative;
     top: 0px;
@@ -1028,7 +1028,7 @@ and (orientation: portrait) {
         border-radius:40px;
     }
 
-    #ambiti-sections,
+    .ambiti-sections,
     #page-news {
         padding: 60px 0px;
     }
@@ -1149,7 +1149,7 @@ and (orientation: portrait) {
             padding-bottom:20px;
         }
 
-        #shop-area .col-3-s #card-cta {
+        #shop-area .col-3-s .card-cta {
             display:none;
         }
 

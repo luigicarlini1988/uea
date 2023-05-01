@@ -75,7 +75,7 @@
     </section>
 
 
-    <section id="ambiti-sections">
+    <section class="ambiti-sections">
 
         <div class="foglio flex justify-evenly align-center right-image">
             <div class="col-8">
@@ -114,7 +114,7 @@
     ?>
 
 
-    <section id="ambiti-sections">
+    <section class="ambiti-sections">
 
         <div class="foglio flex justify-evenly align-center right-image">
             <div class="col-8">
@@ -149,7 +149,7 @@
         include('incl/portlet-news.html') ;
     ?>
 
-    <section id="ambiti-sections">
+    <section class="ambiti-sections">
 
         <div class="foglio flex justify-evenly align-center right-image">
             <div class="col-8">

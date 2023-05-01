@@ -1671,7 +1671,7 @@ header#main-header.topper {
     border-radius:100px 100px 0px 0px;
 }
 
-#card-cta {
+.card-cta {
     border-radius:40px;
     box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);
     overflow:hidden;
@@ -1709,22 +1709,22 @@ header#main-header.topper {
     padding:0px 30px;
 }
 
-#card-cta .bottone-speciale {
+.card-cta .bottone-speciale {
     right:0;
     bottom:0;
 }
 
-#card-cta:hover {
+.card-cta:hover {
     box-shadow: 0px 0px 46px var(--trasp-dark-blu);
     transform: scale(1.01);
 }
 
-#card-cta:hover .ccta-top::before {
+.card-cta:hover .ccta-top::before {
     opacity:.84;
 
 }
 
-#card-cta:hover .bottone-speciale {
+.card-cta:hover .bottone-speciale {
     padding: 6px 40px;
 }
 
@@ -1876,25 +1876,25 @@ header#main-header.topper {
     font-weight:700;
 }
 
-#ambiti-sections {
+.ambiti-sections {
     padding:100px 0px;
 }
 
-#ambiti-sections .titles2 {
+.ambiti-sections .titles2 {
     margin-bottom:20px;
     margin-top:0;
 }
 
-#ambiti-sections .thumbnail-card {
+.ambiti-sections .thumbnail-card {
     aspect-ratio: 1 / 1;
     margin-bottom:0;
 }
 
-#ambiti-sections .foglio {
+.ambiti-sections .foglio {
     margin-bottom:100px;
 }
 
-#ambiti-sections .foglio:last-child {
+.ambiti-sections .foglio:last-child {
     margin-bottom:0px;
 }
 
@@ -1990,7 +1990,7 @@ header#main-header.topper {
 }
 
 
-#collaps-section .collapsible {
+.collaps-section .collapsible {
     background-color: var(--white);
     cursor: pointer;
     padding: 18px;
@@ -2005,19 +2005,19 @@ header#main-header.topper {
   }
   
   
-  #collaps-section .active, 
-  #collaps-section .collapsible:hover {
+  .collaps-section .active, 
+  .collaps-section .collapsible:hover {
     
   }
   
   /* Style the collapsible content. Note: hidden by default */
-  #collaps-section .content {
+  .collaps-section .content {
    
     display: none;
     overflow: hidden;
   }
 
-  #collaps-section .collapsible:after {
+  .collaps-section .collapsible:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 15px;
     color: var(--dark-blu);
@@ -2026,7 +2026,7 @@ header#main-header.topper {
     margin-left: 5px;
   }
   
-  #collaps-section .active:after {
+  .collaps-section .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
 
@@ -2360,7 +2360,7 @@ header#main-header.topper {
     font-size:24px;
 }
 
-#post-wp-content #card-cta {
+#post-wp-content .card-cta {
     margin-bottom:40px;
     
 }
@@ -2588,7 +2588,7 @@ form#shop-filter {
 }
 
 
-#card-cta.shop {
+.card-cta.shop {
     margin-top:60px;
     border-radius:20px;
 }
