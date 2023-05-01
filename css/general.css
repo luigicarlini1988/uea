@@ -3153,38 +3153,38 @@ a.buttons-liner:hover {
     }
 
 
-    #page-generic b {
+    #generic-page b {
         color:var(--dark-blu);
     }
     
     
-    #page-generic h2,
-    #page-generic h4,
-    #page-generic h5,
-    #page-generic h3,
-    #page-generic h6 {
+    #generic-page h2,
+    #generic-page h4,
+    #generic-page h5,
+    #generic-page h3,
+    #generic-page h6 {
         color:var(--dark-blu);
         display:block;
         margin-bottom:.5em;
     }
     
-    #page-generic h2 {
+    #generic-page h2 {
         font-size:40px;
     }
     
-    #page-generic h3 {
+    #generic-page h3 {
         font-size:36px;
     }
     
-    #page-generic h4 {
+    #generic-page h4 {
         font-size:32px;
     }
     
-    #page-generic h5 {
+    #generic-page h5 {
         font-size:28px;
     }
     
-    #page-generic h6 {
+    #generic-page h6 {
         font-size:24px;
     }
   
