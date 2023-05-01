@@ -2971,13 +2971,13 @@ a.buttons-liner:hover {
     height: 100%;
   }
 
-  #shop-generic-page {
+  #generic-page {
     padding:60px 0px 100px 0px;
     background:var(--off-white);
 
   }
 
-  #shop-generic-page .generic-stuff {
+  #generic-page .generic-stuff {
     padding:50px;
     min-height:400px;
     background:var(--white);
@@ -3150,5 +3150,41 @@ a.buttons-liner:hover {
 
     #customer_login h2 {
         color:var(--dark-blu);
+    }
+
+
+    #page-generic b {
+        color:var(--dark-blu);
+    }
+    
+    
+    #page-generic h2,
+    #page-generic h4,
+    #page-generic h5,
+    #page-generic h3,
+    #page-generic h6 {
+        color:var(--dark-blu);
+        display:block;
+        margin-bottom:.5em;
+    }
+    
+    #page-generic h2 {
+        font-size:40px;
+    }
+    
+    #page-generic h3 {
+        font-size:36px;
+    }
+    
+    #page-generic h4 {
+        font-size:32px;
+    }
+    
+    #page-generic h5 {
+        font-size:28px;
+    }
+    
+    #page-generic h6 {
+        font-size:24px;
     }
   

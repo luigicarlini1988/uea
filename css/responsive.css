@@ -1222,11 +1222,11 @@ and (orientation: portrait) {
             margin-top: 30px;
         }
 
-        #shop-generic-page {
+        #generic-page {
             padding:40px 0px;
         }
 
-        #shop-generic-page .generic-stuff {
+        #generic-page .generic-stuff {
             padding:20px;
             border-radius:28px;
         }
