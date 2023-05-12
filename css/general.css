@@ -17,6 +17,10 @@
   --lh-2: 1.8em;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body,html {
     margin:0;
     padding:0;
@@ -830,6 +834,10 @@ span#burger-menu.exer div span {
     left:40px;
 }
 
+#portlet-news .item {
+    width:calc(33% - 15px);
+}
+
 .news-img-thumg {
     overflow: hidden;
     border-radius:28px 28px 0px 0px;
@@ -996,6 +1004,10 @@ footer {
     padding:60px 0px 0px 0px;
     background:var(--blu-gradient);
     border-radius: 80px 80px 0px 0px;
+}
+
+footer.bottom-cta-on {
+    padding-bottom:80px;
 }
 
 .foot-logo {
@@ -1337,10 +1349,17 @@ header#main-header.topper {
     width: fit-content;
 }
 
-#main-nav ul li.current-menu-item a{
+#main-nav ul li.current-menu-item a,
+#main-nav ul li ul li.current-menu-item a{
     font-weight:700;
     color:var(--dark-blu);
 }
+
+#main-nav ul li.current-menu-item ul li a {
+    font-weight: 400;
+}
+
+
 
 #main-nav ul li.current-menu-item::after {
     content:"";
@@ -2018,7 +2037,7 @@ header#main-header.topper {
   }
 
   .collaps-section .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795\fe0e'; /* Unicode character for "plus" sign (+) */
     font-size: 15px;
     color: var(--dark-blu);
     float: right;
@@ -2027,7 +2046,8 @@ header#main-header.topper {
   }
   
   .collaps-section .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796\fe0e"; /* Unicode character for "minus" sign (-) */
+    color: var(--dark-blu);
   }
 
   /* portlet-prodotti */
@@ -3085,8 +3105,22 @@ a.buttons-liner:hover {
        
     }
 
+   .buttons-liner.yello {
+        background:var(--yellow);
+        color:var(--dark-blu);
+        border:1px solid var(--yellow);
+    }
+
     .area-testo-cta p {
         margin:0px 12px 0px 0px;
+    }
+
+    .area-testo-cta {
+        font-size:14px;
+    }
+
+    .area-testo-cta .buttons-liner {
+        margin-left:8px;
     }
 
     .bottone-cookie a.buttons-liner:hover,
@@ -3095,6 +3129,10 @@ a.buttons-liner:hover {
     .area-testo-cta a.buttons-liner:hover {
         background:var(--main-blu);
         border-color:var(--main-blu);
+    }
+
+    .area-testo-cta a.buttons-liner.yello:hover {
+        background:var(--main-blu);
     }
 
 
@@ -3188,3 +3226,27 @@ a.buttons-liner:hover {
         font-size:24px;
     }
   
+
+    .go-to-video {
+        padding:16px 24px;
+        border-radius:16px;
+        box-shadow: 0px 0px 16px var(--trasp-dark-blu-2);
+
+    }
+
+    .vid-ct {
+        width:100%;
+    }
+
+    .go-to-video {
+        margin-top:40px;
+        font-weight:700;
+        font-size:20px;
+        width:fit-content;
+    }
+
+    .go-to-video img {
+        width:24px;
+        margin-left:12px;
+    }
+

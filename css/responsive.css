@@ -549,6 +549,10 @@ and (orientation: portrait) {
     display:none;
 }
 
+#portlet-news .item {
+    width:calc(50% - 15px);
+}
+
 }
 
 @media screen and (max-width:740px){
@@ -1251,6 +1255,10 @@ and (orientation: portrait) {
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
     flex-wrap: wrap;
+}
+
+#portlet-news .item {
+    width:calc(100%);
 }
 
 

@@ -87,7 +87,13 @@
                         aliquip
                         ex ea commodo consequat other two (240)</p>
                     <p class="dark-blu titles5"><i>Il Corso è al momento in programma modalità webinar</i></p>
+                    <a href="#video-wrap" class="vid-ct no-deco">
+                        <div class="go-to-video flex align-center">
+                            Check the video CTA <img src="img/icons/play.svg" />
+                        </div>
+                    </a>
                 </div>
+
                 <div class="plug-in-wizard-wrap">
                     <div class="plu">
                         <p>place plugin stuff here</p>
@@ -148,7 +154,7 @@
                     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                <div class="video-wrap">
+                <div id="video-wrap" class="video-wrap">
                     <iframe src="https://www.youtube.com/embed/Ti6qhk3tX2s" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
                 </div>
@@ -179,6 +185,10 @@
 
     <?php 
         include('incl/footer.html') ;
+    ?>
+
+    <?php 
+        include('incl/cta-bottom.html') ;
     ?>
 
 
