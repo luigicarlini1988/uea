@@ -47,11 +47,11 @@
             <div class="col-3-s">
                 <div id="resp-filter-toggle" class="flex align-center">
                     <img src="img/icons/filters.svg" />
-                    <p class="white bold">Filtra Corsi</p>
+                    <p class="dark-blu bold">Filtra Corsi</p>
                 </div>
                 <div id="sidebar">
                     <div class="filters-box">
-                        <p class="fake-lab white bold">Filtra Corsi</p>
+                        <p class="fake-lab dark-blu bold">Filtra Corsi</p>
                         <form id="shop-filter">
                             <select>
                                 <option value="volvo">Modalità erogazione</option>
@@ -76,24 +76,24 @@
 
                             <div class="check-cont flex align-center justify-left">
                                 <input type="checkbox">
-                                <p class="small-text white">Tipo lavoratore 1</p>
+                                <p class="small-text dark-blu">Tipo lavoratore 1</p>
                             </div>
                             <div class="check-cont flex align-center justify-left">
                                 <input type="checkbox">
-                                <p class="small-text white">Tipo lavoratore 2</p>
+                                <p class="small-text dark-blu">Tipo lavoratore 2</p>
                             </div>
                             <div class="check-cont flex align-center justify-left">
                                 <input type="checkbox">
-                                <p class="small-text white">Tipo lavoratore 3</p>
+                                <p class="small-text dark-blu">Tipo lavoratore 3</p>
                             </div>
 
-                            <button class="buttons-white">Filtra Corsi</button>
+                            <button class="buttons-dark">Filtra Corsi</button>
 
                         </form>
                     </div>
 
                     <div class="shop-categorie">
-                        <p class="white bold">Categorie</p>
+                        <p class="dark-blu bold">Categorie</p>
                         <ul>
                             <li>
                                 <a href="#">Categoria</a>

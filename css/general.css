@@ -266,6 +266,7 @@ p a:hover {
     border-radius:50px;
     border:2px solid var(--dark-blu);
     color:var(--dark-blu);
+    background:transparent;
     text-decoration:none;
     font-weight:700;
     position:relative;
@@ -1733,6 +1734,8 @@ header#main-header.topper {
     bottom:0;
 }
 
+
+
 .card-cta:hover {
     box-shadow: 0px 0px 46px var(--trasp-dark-blu);
     transform: scale(1.01);
@@ -2457,7 +2460,7 @@ blockquote cite:before {
 
 #corporate-hero.shop {
     min-height: auto;
-    background:linear-gradient(to right, var(--dark-blu) 50%,var(--off-white)50%);
+    background:linear-gradient(to right, var(--white) 50%,var(--off-white)50%);
 }
 
 #corporate-hero.shop .corp-hero-cont {
@@ -2486,7 +2489,7 @@ blockquote cite:before {
     position:absolute;
     width:25%;
     height:100%;
-    background:var(--dark-blu);
+    background:var(--white);
     top:0;
     left:0;
     content:"";
@@ -2494,9 +2497,10 @@ blockquote cite:before {
 
 #shop-area .col-3-s {
     padding:70px 0px;
-    background:var(--dark-blu);
+    background:var(--white);
     box-sizing: border-box;
     padding-right:40px;
+    box-shadow: 5px 0px 5px var(--trasp-dark-blu-3);
 }
 
 #shop-area .col-9 {
@@ -2505,7 +2509,7 @@ blockquote cite:before {
 
 .filters-box {
     border-radius:20px;
-    border:1px solid var(--white);
+    border:1px solid var(--dark-blu);
     padding:30px 20px 20px 20px;
     position:relative;
 }
@@ -2515,16 +2519,20 @@ blockquote cite:before {
     position:absolute;
     top:-20px;
     left:14px;
-    background:var(--dark-blu);
+    background:var(--white);
     padding:0px 6px
+}
+
+.fake-lab.white {
+    color:var(--dark-blu);
 }
 
 #shop-filter select {
     width:100%;
     border-radius:14px;
-    background:rgba(255,255,255,0.07);
+    background:var(--off-white);
     padding:14px 16px;
-    color:var(--white);
+    color:var(--dark-blu);
     border:none;
     margin-bottom:16px;
     font-weight:300;
@@ -2536,10 +2544,11 @@ blockquote cite:before {
 
 .check-cont p {
     opacity:.6;
+    font-weight: 400;
 }
 
 #shop-filter button {
-    border:none;
+    
     width:100%;
     margin-top:20px;
     padding:12px;
@@ -2592,10 +2601,10 @@ form#shop-filter {
 }
 
 .shop-categorie ul li a {
-    color:var(--white);
-    opacity:.6;
+    color:var(--dark-blu);
+    opacity:.8;
     text-decoration:none;
-    font-weight:300;
+    font-weight:400;
 }
 
 .shop-categorie ul li a:hover,
@@ -2611,6 +2620,10 @@ form#shop-filter {
 .card-cta.shop {
     margin-top:60px;
     border-radius:20px;
+}
+
+.card-cta.shop .bottone-speciale {
+    border-radius:20px 0px 20px 0px;
 }
 
 

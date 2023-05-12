@@ -1128,7 +1128,7 @@ and (orientation: portrait) {
         }
 
         #corporate-hero.shop {
-            background:var(--dark-blu);
+            background:var(--white);
         }
 
         #shop-area .col-3-s:before {
@@ -1136,7 +1136,7 @@ and (orientation: portrait) {
             width:calc(100% + 50px);
             left:-25px;
             top:0;
-            background:var(--dark-blu);
+            background:var(--white);
             height:100%;
             content:"";
         }
