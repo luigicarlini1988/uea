@@ -49,17 +49,25 @@
      ?>
 
     <section id="home-hero">
-        <div class="home-hero-bg"></div>
+        <div class="video-wrapper">
+            <video poster="video/video-poster.jpg" autoplay playsinline muted="true" loop>
+                <source src="video/trimmed.mp4" type="video/mp4">
+            </video>
+
+        </div>
         <div class="foglio flex justify-center align-center">
             <div class="hero-content">
                 <div class="resp-logo"><img src="img/logos/logo-white.svg" /></div>
                 <p class="titles1 white">
-                    Fai del tuo Business un esempio di progresso sostenibile. È etico e conviene
+                    Fai del tuo Business <br />un esempio di progresso. <br />È semplice. Come la sostenibilità.
                 </p>
                 <div class="buttons-wrap flex justify-evenly">
                     <a href="#" class="buttons-white">Chi Siamo</a>
                     <a href="#" class="buttons-white">Metodo</a>
                 </div>
+            </div>
+            <div id="audio-toggle" class="flex align-center">
+                Attiva l'audio <img src="img/icons/audio.svg" />
             </div>
         </div>
         <div class="discover flex justify-center">

@@ -715,7 +715,8 @@ and (orientation: portrait) {
         text-align:left;
     }
 
-    .home-hero-bg {
+    .home-hero-bg,
+    .video-wrapper {
         border-radius:0px 0px 40px 40px;
     }
 
@@ -1259,6 +1260,14 @@ and (orientation: portrait) {
 
 #portlet-news .item {
     width:calc(100%);
+}
+
+.hero-content br {
+    display:none;
+}
+
+#audio-toggle {
+    display:none;
 }
 
 

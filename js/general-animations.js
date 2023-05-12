@@ -41,5 +41,22 @@ $(document).ready(function () {
         });
     }
 
+
+
+
+
+
+
+    $("#audio-toggle").click(function () {
+        $("video").prop('muted', !$("video").prop('muted'));
+        $(this).toggleClass('audio-on');
+    });
+
+
+
+
+
+
+
 });
 
