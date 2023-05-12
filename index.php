@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div id="audio-toggle" class="flex align-center">
-                Attiva l'audio <img src="img/icons/audio.svg" />
+                <span id="status"></span>l'audio <img src="img/icons/audio.svg" />
             </div>
         </div>
         <div class="discover flex justify-center">

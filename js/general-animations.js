@@ -44,12 +44,14 @@ $(document).ready(function () {
 
 
 
-
+    $("#status").text('Attiva');
 
 
     $("#audio-toggle").click(function () {
         $("video").prop('muted', !$("video").prop('muted'));
         $(this).toggleClass('audio-on');
+        $("#status").text($("#status").text() == 'Attiva' ? 'Disattiva' : 'Attiva');
+
     });
 
 
