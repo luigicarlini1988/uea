@@ -62,7 +62,7 @@
 
 
     <section id="sommario">
-        <div class="foglio">
+        <div class=" foglio">
             <p class="dark-blu titles2">Sommario</p>
             <div class="flex justify-left">
                 <a href="#">Sezione</a>
@@ -75,10 +75,10 @@
     </section>
 
 
-    <section id="ambiti-sections">
+    <section class="ambiti-sections">
 
         <div class="foglio flex justify-evenly align-center">
-            <div>
+            <div class="col-full">
                 <?php 
                 include('incl/collapsible.html') ;
                 ?>
@@ -99,7 +99,7 @@
 
 
 
-    <section id="ambiti-sections" class="no-invert">
+    <section id=" ambiti-sections" class="no-invert">
         <div class="foglio flex justify-evenly align-center right-image">
 
             <h2 class="titles2 dark-blu">Titolo andrà qui</h2>
