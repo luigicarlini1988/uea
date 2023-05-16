@@ -2148,6 +2148,7 @@ header#main-header.topper {
 
   #portlet-prodotti .flex-grid .item {
     width:100%;
+    max-width:33%;
   }
 
   #portlet-prodotti #product-card,
