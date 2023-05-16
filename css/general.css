@@ -2625,6 +2625,7 @@ blockquote cite:before {
     padding:12px;
     cursor:pointer;
     opacity:.8;
+    border:2px solid var(--dark-blu)!important;
 }
 
 #shop-filter button:hover {
