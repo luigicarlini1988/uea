@@ -351,6 +351,11 @@ and (orientation: portrait) {
     #sostenibilita .foglio .item {
         position: relative;
         padding: 20px 0px;
+        width:100%;
+    }
+
+    #sostenibilita .foglio {
+        flex-wrap: wrap;
     }
 
     #sostenibilita .foglio .item .titles2 {
@@ -775,6 +780,7 @@ and (orientation: portrait) {
     #sostenibilita .foglio .item {
         padding-bottom:30px;
         border-bottom:1px solid rgba(0,0,0,0.1);
+        
     }
 
     #sostenibilita .foglio .item:last-child{

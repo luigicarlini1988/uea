@@ -5,19 +5,19 @@ $(document).ready(function () {
         dots: false,
         responsive: {
             0: {
-                items: 2,
+                items: 1,
                 margin: 20
             },
             600: {
-                items: 3,
+                items: 2,
                 margin: 20
             },
             900: {
-                items: 4,
+                items: 3,
                 margin: 30
             },
             1600: {
-                items: 6,
+                items: 4,
                 margin: 30
             }
         }

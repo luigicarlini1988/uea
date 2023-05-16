@@ -385,9 +385,9 @@ a.no-deco
 }
 
 
-.thumbnail-card:hover .thumb-img-wrap::after {
+/*.thumbnail-card:hover .thumb-img-wrap::after {
     opacity:.85;
-}
+}*/
 
 .thumbnail-card:hover .bottone-speciale {
     padding:6px 40px;
@@ -693,8 +693,20 @@ video {
     box-sizing: border-box;
 }
 
+#sostenibilita .foglio .item {
+    width: calc(33% - 15px);
+}
+
 #sostenibilita .foglio .col-4 {
     position:relative;
+}
+
+#sostenibilita .foglio .titles2 {
+    margin-bottom:18px;
+}
+
+#sostenibilita .foglio  p {
+    font-size:16px;
 }
 
 #sostenibilita:before {
@@ -917,11 +929,10 @@ video {
 
 .news-thumb:hover {
     box-shadow: 0px 0px 38px var(--trasp-dark-blu-2);
+    transform:scale(1.01);
 }
 
-.news-thumb:hover .news-img-thumg img {
-    transform:scale(1.05);
-}
+
 
 .news-thumb .titles4.dark-blu {
     transition-duration:.2s;
@@ -1013,14 +1024,21 @@ video {
     overflow:hidden;
     padding:12px;
     background-color:var(--off-white);
+    flex-wrap: nowrap;
+}
+
+.partners-wrapper .titles5 {
+    font-size:18px;
+    line-height:1em;
 }
 
 .logo-partner {
-    width: 60px;
-    height: 60px;
+    min-width:55px;
+    width: 55px;
+    height: 55px;
     border-radius: 12px;
     overflow: hidden;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 /* le nostre sedi */
@@ -1665,7 +1683,8 @@ header#main-header.topper {
 .time-row {
     position:relative;
     z-index:2;
-    margin: -40px 0px;
+    margin: 0px 0px;
+    width:100%;
 
 }
 
@@ -1794,10 +1813,7 @@ header#main-header.topper {
     transform: scale(1.01);
 }
 
-.card-cta:hover .ccta-top::before {
-    opacity:.84;
 
-}
 
 .card-cta:hover .bottone-speciale {
     padding: 6px 40px;
