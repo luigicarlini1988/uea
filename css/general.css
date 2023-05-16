@@ -2962,10 +2962,7 @@ form#shop-filter {
 }
 
 .plu {
-    min-height:500px;
     border-radius:20px;
-    background:var(--off-white);
- 
     margin-bottom:50px;
 }
 
@@ -3347,3 +3344,42 @@ a.buttons-liner:hover {
         margin-left:12px;
     }
 
+
+    /* shop plug-ins */
+
+    .ui.active.step, .ui.steps .step.active,
+    .ui.active.steps:after, .ui.steps .step.active:after {
+        background-color:var(--dark-blu);
+    }
+
+
+    .mspc-wrapper .mspc-content .mspc-tab-content {
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    .woocommerce-variation-add-to-cart {
+        display:flex;
+    }
+
+    .woocommerce .quantity .qty {
+        height:48px;
+        margin-right:15px;
+
+    }
+    .variations_form.cart .single_add_to_cart_button {
+        background-color:var(--main-blu);
+    }
+
+    .woocommerce .single_variation_wrap {
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .woocommerce .woocommerce-variation-price,
+    .woocommerce .woocommerce-variation-price bdi {
+        
+            font-size: 32px;
+            color: var(--dark-blu);
+        
+    }
