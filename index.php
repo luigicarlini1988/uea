@@ -59,7 +59,9 @@
             <div class="hero-content">
                 <div class="resp-logo"><img src="img/logos/logo-white.svg" /></div>
                 <p class="titles1 white">
-                    Fai del tuo Business <br />un esempio di progresso. <br />È semplice. Come la sostenibilità.
+                    <span style="font-weight:400">Fai del tuo Business <br />un esempio di progresso responsabile.
+                    </span><br /><span style="font-weight:900">È semplice. Come la
+                        sostenibilità.</span>
                 </p>
                 <div class="buttons-wrap flex justify-evenly">
                     <a href="#" class="buttons-white">Chi Siamo</a>
