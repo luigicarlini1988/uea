@@ -1787,6 +1787,7 @@ header#main-header.topper {
     height:100%;
     opacity:.4;
     left:0;
+    top:0;
     border-radius:0px 0px 26px 0px;
     transition-duration:.2s;
 }
@@ -2693,6 +2694,11 @@ form#shop-filter {
 .card-cta.shop {
     margin-top:60px;
     border-radius:20px;
+}
+
+.card-cta.shop .ccta-top {
+    padding-top:30px;
+    padding-bottom:60px;
 }
 
 .card-cta.shop .bottone-speciale {
