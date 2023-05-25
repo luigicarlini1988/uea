@@ -183,7 +183,7 @@ and (orientation: portrait) {
     #main-nav {
         height:auto;
         border-radius: 20px;
-        box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);
+        box-shadow: none;
         padding: 12px;
     }
 
@@ -267,6 +267,12 @@ and (orientation: portrait) {
     #main-nav ul.menu li,
     #main-nav ul.menu li ul.sub-menu li  {
         border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+
+    #main-nav li.menu-item-has-children:before {
+
+        right:4px;
+ 
     }
 
     #main-nav ul li.current-menu-item::after {
@@ -884,6 +890,8 @@ and (orientation: portrait) {
         padding-left: 15px;
         background-size: 10px;
         margin-bottom: 40px;
+        background-position: 0px 8px;
+    
     }
 
 

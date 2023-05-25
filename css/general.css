@@ -1524,6 +1524,19 @@ header#main-header.topper {
     position:relative;
 }
 
+#main-nav li.menu-item-has-children{
+    position:relative;
+}
+
+#main-nav li.menu-item-has-children:before {
+    position:absolute;
+    content:url(../img/icons/down-arrow.svg);
+    width:12px;
+    height:12px;
+    right:-10px;
+    top:7px;
+}
+
 #main-nav ul ul {
     position:absolute;
     top:36px;
@@ -2332,10 +2345,13 @@ header#main-header.topper {
     border-radius:40px;
     box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);
     margin-bottom:40px;
+  
 }
 
-.result-item .text-result {
-    padding:36px;
+.result-item .image-wrap {
+    min-height:100%;
+    min-width:25%;
+   
 }
 
 
@@ -2343,9 +2359,19 @@ header#main-header.topper {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    aspect-ratio: 1 / 1;
     border-radius: 40px 0px 0px 40px;
 }
+
+.result-item .text-result {
+    
+   padding:36px;
+}
+
+.result-item .text-result .titles3 {
+    margin-top:10px;
+}
+
+
 
 .result-item .col-8 {
     width:calc(66%);
@@ -3382,4 +3408,75 @@ a.buttons-liner:hover {
             font-size: 32px;
             color: var(--dark-blu);
         
+    }
+
+    .generic-stuff .woocommerce-MyAccount-navigation ul {
+        padding:0;
+    }
+
+
+    .generic-stuff .woocommerce-MyAccount-navigation ul li {
+        list-style-type: none;
+        display:inline;
+        padding:12px 24px;
+        background:var(--light-grey);
+        border-radius:4px;
+        margin-right:12px;
+        transition-duration:.2s;
+    }
+
+    .generic-stuff .woocommerce-MyAccount-navigation ul li.is-active {
+        background-color:var(--dark-blu);
+    }
+
+    .generic-stuff .woocommerce-MyAccount-navigation ul li:hover {
+        background:var(--dark-blu);
+    }
+
+    .generic-stuff .woocommerce-MyAccount-navigation ul li:hover a,
+    .generic-stuff .woocommerce-MyAccount-navigation ul li.is-active a {
+        color:var(--white);
+    }
+
+    .generic-stuff .woocommerce-MyAccount-navigation ul li a {
+        color:var(--dark-blu);
+        text-decoration: none;
+    }
+
+    .generic-stuff .woocommerce-MyAccount-content {
+        padding:30px;
+        border-radius:25px;
+        box-shadow: 0px 0px 25px var(--trasp-dark-blu-2);
+        margin-top:50px;
+    }
+
+    .generic-stuff h2 {
+        color:var(--dark-blu);
+        font-size:42px;
+    }
+    .generic-stuff h3 {
+        color:var(--dark-blu);
+        font-size:36px;
+    }
+    .generic-stuff h4 {
+        color:var(--dark-blu);
+        font-size:32px;
+    }
+
+    .woocommerce-EditAccountForm button.woocommerce-Button.button.wp-element-button {
+        background:var(--dark-blu);
+        color:var(--white);
+        border-radius:50px;
+        padding:12px 24px;
+        transition-duration:.2s;
+    }
+
+    .woocommerce-EditAccountForm button.woocommerce-Button.button.wp-element-button:hover {
+        background:var(--main-blu);
+    }
+
+    .generic-stuff form.woocommerce-EditAccountForm.edit-account {
+        padding:24px;
+        border-radius:20px;
+        box-shadow: 0px 0px 24px var(--trasp-dark-blu-2);
     }
