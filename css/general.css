@@ -3394,7 +3394,12 @@ a.buttons-liner:hover {
 
     }
     .variations_form.cart .single_add_to_cart_button {
-        background-color:var(--main-blu)!important;
+        background-color: var(--yellow)!important;
+        color: var(--dark-blu)!important;
+    }
+
+    .variations_form.cart .single_add_to_cart_button.disabled {
+        background:var(--grey)!important;
     }
 
     .woocommerce .single_variation_wrap {
