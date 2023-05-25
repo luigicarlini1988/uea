@@ -3394,12 +3394,12 @@ a.buttons-liner:hover {
 
     }
     .variations_form.cart .single_add_to_cart_button {
-        background-color:var(--main-blu);
+        background-color:var(--main-blu)!important;
     }
 
     .woocommerce .single_variation_wrap {
         display:flex;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 
     .woocommerce .woocommerce-variation-price,
