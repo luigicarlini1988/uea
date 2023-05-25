@@ -3474,9 +3474,3 @@ a.buttons-liner:hover {
     .woocommerce-EditAccountForm button.woocommerce-Button.button.wp-element-button:hover {
         background:var(--main-blu);
     }
-
-    .generic-stuff form.woocommerce-EditAccountForm.edit-account {
-        padding:24px;
-        border-radius:20px;
-        box-shadow: 0px 0px 24px var(--trasp-dark-blu-2);
-    }
