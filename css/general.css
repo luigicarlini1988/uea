@@ -3415,6 +3415,10 @@ a.buttons-liner:hover {
         
     }
 
+    .woocommerce .woocommerce-variation-price {
+        margin-right:50px;
+    }
+
     .generic-stuff .woocommerce-MyAccount-navigation ul {
         padding:0;
     }
