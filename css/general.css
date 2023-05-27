@@ -3483,3 +3483,62 @@ a.buttons-liner:hover {
     .woocommerce-EditAccountForm button.woocommerce-Button.button.wp-element-button:hover {
         background:var(--main-blu);
     }
+
+
+    .metodo-1 {
+        position:relative;
+        padding:100px 0px;
+    }
+
+    .metodo-1:before {
+        content: "";
+        position: absolute;
+        width: calc(100% - 80px);
+        height: calc(100% - 80px);
+        border-radius: 100px;
+        background-image: url(../img/backgrounds/ambiente-after.jpg);
+        background-size: cover;
+        background-position: center;
+        top: 40px;
+        left: 40px;
+    }
+
+    .metodo-1 .col-8 {
+        background:var(--white);
+        padding:45px;
+        border-radius:56px;
+    }
+
+    .metodo-1 .met-row:not(:last-child) {
+        margin-bottom:60px;
+    }
+
+   .gen-ic {
+    width:80%;
+    max-width:280px;
+   } 
+
+   #c-passi {
+    padding:100px 0px;
+   }
+
+   #c-passi:before {
+    content: "";
+    position: absolute;
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+    border-radius: 100px;
+    background: var(--off-white);
+    top: 40px;
+    left: 40px;
+}
+
+.passi-section {
+    padding:40px;
+    background:var(--white);
+    border-radius:56px;
+}
+
+.passi-section:not(:last-child){
+    margin-bottom:50px;
+}

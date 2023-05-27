@@ -33,7 +33,9 @@ and (orientation: portrait) {
     #portlet-news::before,
     #nostri-servizi:before,
     #form-esploso:before,
-    #portlet-prodotti:before {
+    #portlet-prodotti:before,
+    .metodo-1:before,
+    #c-passi:before {
         left:0px;
         width: 100%;
     }
@@ -70,6 +72,10 @@ and (orientation: portrait) {
         aspect-ratio: auto;
         object-fit: contain;
         border-radius:0;
+    }
+
+    .metodo-1 .gen-ic {
+        margin-top:60px;
     }
 }
 
@@ -766,7 +772,16 @@ and (orientation: portrait) {
         padding: 60px 0px;
     }
 
-    #sostenibilita:before {
+    .metodo-1 {
+        padding:60px 0px;
+    }
+
+    .metodo-1 .col-8 {
+        padding:30px;
+    }
+
+    #sostenibilita:before,
+    .metodo-1:before {
         content: "";
         position: absolute;
         height: calc(100% - 60px);
@@ -1003,11 +1018,13 @@ and (orientation: portrait) {
         padding:60px 0px;
     }
 
-    #nostri-servizi {
+    #nostri-servizi,
+    #c-passi {
         padding:60px 0px;
     }
 
-    #nostri-servizi:before {
+    #nostri-servizi:before,
+    #c-passi:before {
         border-radius:40px;
         height:calc(100% - 40px);
         top:20px;
@@ -1020,6 +1037,10 @@ and (orientation: portrait) {
     .newsletter-wrap form input {
         width:100%;
         margin-bottom:16px;
+    }
+
+    .gen-ic {
+        max-width:150px;
     }
 
     #newsletter {
