@@ -3253,15 +3253,17 @@ a.buttons-liner:hover {
 
     .bottone-cookie a.buttons-liner:hover,
     .bottone-chat a.buttons-liner:hover,
-    .bottone-chat button.buttons-liner:hover,
-    .area-testo-cta a.buttons-liner:hover {
+    .bottone-chat button.buttons-liner:hover
+                {
         background:var(--main-blu);
         border-color:var(--main-blu);
     }
 
-    .area-testo-cta a.buttons-liner.yello:hover {
-        background:var(--main-blu);
+    .area-testo-cta a.buttons-liner:hover {
+        transform:scale(1.05)
     }
+
+ 
 
 
     /*aggiunte su woocommerce elements*/
