@@ -3308,6 +3308,8 @@ a.buttons-liner:hover {
     .woocommerce-Button.woocommerce-button.button.wp-element-button.woocommerce-form-register__submit {
         background-color:var(--dark-blu);
         color:var(--white);
+        padding: 12px 24px;
+        border-radius: 50px;
     }
 
     .woocommerce-button.button.woocommerce-form-login__submit.wp-element-button:hover,
