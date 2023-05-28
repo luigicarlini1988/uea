@@ -792,6 +792,10 @@ video {
     padding:35px;
 }
 
+.testimonials-wrapper .test-name {
+    max-width: calc(100% - 120px);
+}
+
 #testimonials .owl-carousel .owl-stage-outer {
     overflow:visible;
 }
