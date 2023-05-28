@@ -2098,7 +2098,7 @@ header#main-header.topper {
 .collaps-section .collapsible {
     background-color: var(--white);
     cursor: pointer;
-    padding: 18px;
+    padding: 18px 38px 18px 18px;
     width: 100%;
     border: none;
     text-align: left;
@@ -2107,6 +2107,7 @@ header#main-header.topper {
     box-shadow: 0px 0px 16px var(--trasp-dark-blu-2);
     margin-bottom:0;
     margin-top:24px;
+    position:relative;
   }
   
   
@@ -2126,9 +2127,9 @@ header#main-header.topper {
     content: '\02795\fe0e'; /* Unicode character for "plus" sign (+) */
     font-size: 15px;
     color: var(--dark-blu);
-    float: right;
-    margin-top:4px;
-    margin-left: 5px;
+    position:absolute;
+    top:calc(50% - 12px);
+    right:18px;
   }
   
   .collaps-section .active:after {
