@@ -2768,6 +2768,7 @@ form#shop-filter {
     margin-bottom:40px;
     box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);
     overflow:hidden;
+    position:relative;
 }
 
 #product-card img,
@@ -2795,12 +2796,14 @@ form#shop-filter {
 
 .duration {
     padding:6px 12px 6px 28px;
-    background:var(--dark-blu);
+    background:var(--main-blu);
     border-radius:30px;
     color:var(--white);
     line-height:1em;
     font-size:14px;
-    position:relative;
+    position: absolute;
+    right: 12px;
+    top: 12px;
 }
 
 .duration:before {
@@ -3388,6 +3391,7 @@ a.buttons-liner:hover {
     .mspc-wrapper .mspc-content .mspc-tab-content {
         display:flex;
         justify-content: flex-end;
+        flex-wrap: wrap;
     }
 
     .woocommerce-variation-add-to-cart {
@@ -3548,3 +3552,78 @@ a.buttons-liner:hover {
 .passi-section:not(:last-child){
     margin-bottom:50px;
 }
+
+.generic-stuff .woocommerce-cart-form {
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);
+}
+
+.generic-stuff .woocommerce table.shop_table:last-child {
+    margin-bottom:0;
+}
+
+.generic-stuff .cart_totals {
+    margin-top:50px;
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);
+}
+
+.generic-stuff .cart_totals h2 {
+    margin-top:0;
+}
+
+.generic-stuff tr.woocommerce-cart-form__cart-item.cart_item {
+    font-size:18px;
+}
+
+.generic-stuff tr.woocommerce-cart-form__cart-item.cart_item p {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.generic-stuff input#coupon_code {
+    padding: 8px;
+    width: 180px;
+}
+
+.generic-stuff .coupon .wp-element-button,
+.generic-stuff .woocommerce-cart-form button,
+.generic-stuff .return-to-shop a.button {
+    background-color:var(--dark-blu);
+    color:var(--white);
+}
+
+.generic-stuff .coupon .wp-element-button:hover,
+.generic-stuff .woocommerce-cart-form button:hover,
+.generic-stuff .return-to-shop a.button:hover {
+    background:var(--main-blu);
+}
+
+.generic-stuff .woocommerce-cart-form button:disabled[disabled] {
+    background:#ebe9eb;
+    color:#515151;
+}
+
+.generic-stuff .wc-proceed-to-checkout a.checkout-button {
+    background: var(--yellow);
+    color: var(--dark-blu);
+    padding: 18px 44px;
+    font-weight:800;
+}
+
+.generic-stuff .wc-proceed-to-checkout a.checkout-button:hover {
+    background: var(--yellow);
+    color: var(--dark-blu);
+    transform:scale(1.05);
+}
+
+.generic-stuff .woocommerce-message {
+    border-top-color: var(--main-blu);
+}
+
+.generic-stuff .woocommerce-message::before {
+    color:var(--main-blu);
+}
+
