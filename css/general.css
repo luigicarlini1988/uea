@@ -3614,6 +3614,7 @@ a.buttons-liner:hover {
 .generic-stuff .woocommerce-cart-form button:hover,
 .generic-stuff .return-to-shop a.button:hover {
     background:var(--main-blu);
+    color:var(--white);
 }
 
 .generic-stuff .woocommerce-cart-form button:disabled[disabled] {
