@@ -3049,6 +3049,9 @@ form#shop-filter {
 .sidecar.duration {
     background:var(--main-blu);
     margin-top:30px;
+    position:relative;
+    top:0;
+    right:0;
 }
 
 .sidecar.duration:before {
@@ -3090,6 +3093,15 @@ a.buttons-liner {
 a.buttons-liner:hover {
     background:var(--dark-blu);
     border-color:var(--dark-blu);
+}
+
+.area-testo-cta a.buttons-liner.yello:hover {
+    border:var(--white);
+    color:var(--white);
+}
+
+.area-testo-cta a.buttons-liner.yello:hover img {
+    filter:brightness(10);
 }
 
 #divider-section .col-7 {
@@ -3631,3 +3643,18 @@ a.buttons-liner:hover {
     color:var(--main-blu);
 }
 
+
+.form-esploso-wrap .frm_dropzone.frm_single_upload {
+    max-width: none;
+}
+
+#form-esploso .frm_dropzone input#field_2nuqg {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#form-esploso .frm_dropzone input#file-upload-button {
+
+}
