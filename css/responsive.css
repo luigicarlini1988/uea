@@ -762,9 +762,13 @@ and (orientation: portrait) {
         padding:60px 0px;
     }
 
+    #slider-certificazioni {
+        padding-top:60px;
+    }
+
     #slider-certificazioni .owl-nav {
         position: absolute;
-        top: -20px;
+        top: 10px;
         right: 0px;
     }
 
