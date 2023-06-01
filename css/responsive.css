@@ -1044,9 +1044,10 @@ and (orientation: portrait) {
     }
 
     #newsletter {
-        padding: 40px 0px;
+        padding: 40px 0px 80px 40px;
         background: var(--off-white);
         border-radius: 40px 40px 0px 0px;
+        margin-bottom:-40px;
     }
 
     #opening-corp {
