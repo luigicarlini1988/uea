@@ -2102,6 +2102,7 @@ span#frm_error_field_tchfx {
     margin-top:20px;
     align-items: center;
     color:var(--white);
+    height:50px;
 }
 
 #form-esploso form div.checker p {
