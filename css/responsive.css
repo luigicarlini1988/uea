@@ -1070,6 +1070,11 @@ and (orientation: portrait) {
 
     .newsletter-wrap form input {
         width:100%;
+        
+    }
+
+    #form-esploso .frm_fields_container .formamelo {
+        width: 100%;
         margin-bottom:16px;
     }
 

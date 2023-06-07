@@ -2014,6 +2014,19 @@ header#main-header.topper {
 
 /* form esploso */
 
+.frm_error_style {
+    padding: 12px;
+    color: coral;
+    font-size: 14px;
+}
+
+span#frm_error_field_tchfx {
+    color: coral;
+    padding-top: 8px;
+    display: inline-block;
+    font-size: 14px;
+}
+
 #form-esploso {
     padding:100px 0px;
     margin-bottom:50px;
@@ -2032,20 +2045,30 @@ header#main-header.topper {
 }
 
 
-#form-esploso form {
-    width:100%;
-    display:flex;
+
+
+#form-esploso .frm_fields_container {
+    width: 100%;
+    display: flex!important;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
+#form-esploso .frm_fields_container .formamelo {
+    width: 32%;
+    margin-bottom:30px;
+}
+
+#form-esploso .frm_fields_container .formamelo-message {
+    width: 100%;
+}
+
 #form-esploso form input {
-    width:32%;
+    width:100%;
     border:none;
     padding:18px 20px;
     background:var(--white);
     border-radius:30px;
-    margin-bottom:30px;
 }
 
 
@@ -2085,7 +2108,7 @@ header#main-header.topper {
 }
 
 #form-esploso form select {
-    width: 32%;
+    width: 100%;
     border: none;
     padding: 18px 20px;
     background: var(--white);
