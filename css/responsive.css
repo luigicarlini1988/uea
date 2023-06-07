@@ -1104,6 +1104,10 @@ and (orientation: portrait) {
         width: 100%;
     }
 
+    #form-esploso form div.checker {
+        margin-top:0;
+    }
+
     #form-esploso:before {
         border-radius:40px;
     }
