@@ -571,12 +571,45 @@ and (orientation: portrait) {
     width:calc(50% - 15px);
 }
 
+.top-right-ui {
+    padding-top:0px;
+    justify-content: flex-end;
+    width:100%;
+}
+
+.top-search {
+    position:absolute;
+    left:0px;
+    top:0;
+}
+
+.top-search:hover input#site-search,
+.top-search input#site-search {
+    opacity: 1;
+    width: 260px;
+    padding: 0px 15px;
+}
+
+.top-search button {
+    position:absolute;
+    width: 31px;
+    height: 31px;
+    top: 2px;
+    right: 2px;
+}
+
 }
 
 @media screen and (max-width:740px){
 
     .top-right-ui {
         margin-right:0px;
+    }
+
+    .top-right-ui {
+        padding-top:50px;
+        justify-content: flex-start;
+        width:100%;
     }
 
     .col-3,
@@ -598,10 +631,7 @@ and (orientation: portrait) {
         width: calc(100% - 50px);
     }
 
-    .top-search {
-        position:absolute;
-        right:40px;
-    }
+   
 
     .e-learning  {
         display:none;
@@ -617,7 +647,7 @@ and (orientation: portrait) {
     }
 
     #main-nav {
-        padding:0px 0px 20px 0px;
+        padding:20px 0px 20px 0px;
     }
 
     #main-nav ul li.current-menu-item a,

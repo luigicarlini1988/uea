@@ -3413,8 +3413,19 @@ a.buttons-liner:hover {
         flex-wrap: wrap;
     }
 
-    .woocommerce-variation-add-to-cart {
+    .woocommerce-variation-add-to-cart{
         display:flex;
+    }
+
+    .plug-in-wizard-wrap form.cart {
+        display:flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .variations_form.cart .single_add_to_cart_button {
+        background-color: var(--yellow)!important;
+        color: var(--dark-blu)!important;
     }
 
     .woocommerce .quantity .qty {
@@ -3422,7 +3433,7 @@ a.buttons-liner:hover {
         margin-right:15px;
 
     }
-    .variations_form.cart .single_add_to_cart_button {
+    .plug-in-wizard-wrap form.cart .single_add_to_cart_button {
         background-color: var(--yellow)!important;
         color: var(--dark-blu)!important;
     }
@@ -3434,6 +3445,7 @@ a.buttons-liner:hover {
     .woocommerce .single_variation_wrap {
         display:flex;
         justify-content: flex-end;
+        width:100%;
     }
 
     .woocommerce .woocommerce-variation-price,
