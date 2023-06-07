@@ -1102,7 +1102,6 @@ and (orientation: portrait) {
     #form-esploso form select,
     #form-esploso form textarea {
         width: 100%;
-        margin-bottom: 16px;
     }
 
     #form-esploso:before {

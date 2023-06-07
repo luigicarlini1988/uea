@@ -2092,6 +2092,10 @@ span#frm_error_field_tchfx {
     height:fit-content;
 }
 
+.frm_form_fields fieldset {
+    padding:0;
+}
+
 #form-esploso form button:hover {
     transform:scale(1.02);
     box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);
