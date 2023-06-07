@@ -2089,6 +2089,7 @@ span#frm_error_field_tchfx {
     line-height:1em;
     margin-top:35px;
     transition-duration:.2s;
+    height:fit-content;
 }
 
 #form-esploso form button:hover {
