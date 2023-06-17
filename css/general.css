@@ -1306,29 +1306,24 @@ header#main-header.topper {
     transition-duration: .2s;
 }
 
-.top-search:hover button {
+/*.top-search:hover button {
     background:var(--main-blu);
-}
+}*/
 
 .top-search button img {
     width:14px;
 }
 
-.top-search:hover input#site-search {
-    opacity:1;
-    width:200px;
-    padding:0px 15px;
-}
 
 .top-search input#site-search {
     border:none;
     background:var(--white);
     height:35px;
-    padding:0px;
+    padding:0px 15px;
     border-radius:30px;
-    width: 0px;
+    width: 200px;
     transition-duration:.3s;
-    opacity:0;
+    opacity:1;
 }
 
 .top-user {
