@@ -3667,14 +3667,18 @@ a.buttons-liner:hover {
     color:#515151;
 }
 
-.generic-stuff .wc-proceed-to-checkout a.checkout-button {
+.generic-stuff .wc-proceed-to-checkout a.checkout-button,
+.woocommerce #payment #place_order, 
+.woocommerce-page #payment #place_order {
     background: var(--yellow);
     color: var(--dark-blu);
     padding: 18px 44px;
     font-weight:800;
 }
 
-.generic-stuff .wc-proceed-to-checkout a.checkout-button:hover {
+.generic-stuff .wc-proceed-to-checkout a.checkout-button:hover,
+.woocommerce #payment #place_order:hover, 
+.woocommerce-page #payment #place_order:hover {
     background: var(--yellow);
     color: var(--dark-blu);
     transform:scale(1.05);
@@ -3702,4 +3706,22 @@ a.buttons-liner:hover {
 
 #form-esploso .frm_dropzone input#file-upload-button {
 
+}
+
+
+.woocommerce-checkout #payment {
+    margin-top: 50px;
+    }
+
+.woocommerce form.checkout table.shop_table,
+.woocommerce-checkout #payment,
+.woocommerce .col2-set .col-1, 
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2, 
+.woocommerce-page .col2-set .col-2 {
+    
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);; 
+    background:white;
 }
