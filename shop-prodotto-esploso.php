@@ -23,9 +23,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
 
 
-    <!--JS / Jquery -->
-    <script type="text/javascript" src="js/jquery-3-10-1-min.js"></script>
-    <script type="text/javascript" src="js/general-animations.js"></script>
+
 
 
 
@@ -191,7 +189,8 @@
         include('incl/cta-bottom.html') ;
     ?>
 
-
+    <!--JS / Jquery -->
+    <script type="text/javascript" src="js/general-animation-shop.js"></script>
 </body>
 
 </html>
