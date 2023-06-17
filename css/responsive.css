@@ -1351,7 +1351,7 @@ and (orientation: portrait) {
 }
 
 .card-cta img {
-    margin-bottom:-5px;
+    margin: bottom -4px;
 }
 
 
