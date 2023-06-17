@@ -2143,10 +2143,7 @@ span#frm_error_field_tchfx {
   }
   
   
-  .collaps-section .active, 
-  .collaps-section .collapsible:hover {
-    
-  }
+
   
   /* Style the collapsible content. Note: hidden by default */
   .collaps-section .content {
@@ -3699,9 +3696,6 @@ a.buttons-liner:hover {
     margin-bottom: 0;
 }
 
-#form-esploso .frm_dropzone input#file-upload-button {
-
-}
 
 
 .woocommerce-checkout #payment {
