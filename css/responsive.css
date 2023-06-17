@@ -1350,5 +1350,9 @@ and (orientation: portrait) {
     display:none;
 }
 
+.card-cta img {
+    margin-bottom:-5px;
+}
+
 
 }
