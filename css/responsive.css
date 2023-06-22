@@ -79,7 +79,7 @@ and (orientation: portrait) {
     }
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1064px) {
     #portlet-prodotti .flex-grid {
         display: flex;
         flex-wrap: wrap;
@@ -89,6 +89,35 @@ and (orientation: portrait) {
     #portlet-prodotti .flex-grid .item {
         width: calc(50% - 15px);
         max-width: calc(50% - 15px);
+    }
+
+    #main-nav ul li a {
+        font-size:11px;
+    }
+
+    #blog-nav ul li a {
+        font-size:8px;
+    }
+
+    .card-cta.shop .bottone-speciale {
+        font-size: 12px;
+    }
+
+    .ccta-top .titles4 {
+        padding:20px 0px 60px 0px;
+    }
+
+    .thumb-title {
+        padding:0px 20px;
+    }
+
+    .thumb-icona {
+        left:40px;
+    }
+
+    #sostenibilita .titles2 {
+       
+        font-size: 32px;
     }
 
     
@@ -1352,5 +1381,17 @@ and (orientation: portrait) {
     margin: bottom -4px;
 }
 
+#main-nav ul li a {
+    font-size:14px;
+}
+
+#blog-nav ul li a {
+    font-size:12px;
+}
+
+#sostenibilita .foglio .titles2 {
+       
+    font-size: 32px;
+}
 
 }
