@@ -3715,3 +3715,54 @@ a.buttons-liner:hover {
     box-shadow: 0px 0px 20px var(--trasp-dark-blu-2);; 
     background:white;
 }
+
+#modal {
+    z-index:10000;
+    position:fixed;
+    top:0;
+    width:100%;
+    height:100svh;
+    transition-duration:.3s;
+    
+}
+
+#obscurer {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px); 
+}
+
+.video-wr {
+    max-width:1000px;
+    width:100%;
+    aspect-ratio: 16/9;
+    background:#fff;
+    position:relative;
+}
+
+.close {
+    position:absolute;
+    top:15px;
+    right:15px;
+    background:var(--yellow);
+    color:var(--darker-blu);
+    font-weight: 700;
+    border-radius: 8px;
+    padding:12px 24px;
+    cursor:pointer;
+}
+
+.video-wr  iframe {
+    position:absolute;
+    width:100%!important;
+    height:100%!important;
+}
+
+
+#modal.hidden {
+    display:none;
+    opacity:0;
+}

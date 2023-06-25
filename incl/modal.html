@@ -1,0 +1,31 @@
+<div id="modal" class="flex justify-center align-center hidden">
+    <div id="obscurer"></div>
+    <div class="video-wr">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6hgVihWjK2c" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+    <div class="close btn-close">
+        Close
+    </div>
+</div>
+
+<script type="text/javascript">
+    const modal = document.querySelector("#modal");
+    const openModalBtn = document.querySelector(".btn-open");
+    const closeModalBtn = document.querySelector(".btn-close");
+
+    const openModal = function () {
+        modal.classList.remove("hidden");
+
+    };
+
+    openModalBtn.addEventListener("click", openModal);
+
+    const closeModal = function () {
+        modal.classList.add("hidden");
+    };
+
+    closeModalBtn.addEventListener("click", closeModal);
+</script>

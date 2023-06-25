@@ -90,7 +90,7 @@
                 </p>
                 <div class="buttons-wrap flex">
                     <a class="buttons-dark special" href="#">Servizi</a>
-                    <a class="buttons-dark special" href="#">Corsi</a>
+                    <a class="buttons-dark special btn-open" href="#">Corsi</a>
                 </div>
             </div>
             <div class="col-5">
@@ -142,6 +142,10 @@
 
     <?php 
         include ('incl/cta-bottom.html') ;
+    ?>
+
+    <?php 
+        include ('incl/modal.html') ;
     ?>
 </body>
 
